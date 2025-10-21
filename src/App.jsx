@@ -7,11 +7,11 @@ export default function App() {
       links: [
         {
           name: "Material de Estudio - Firmware",
-          href: "https://www.canva.com/design/DAG2SuIu-a8/bIweGZPkHmRwC2yPuWu4SQ/edit?utm_content=DAG2SuIu-a8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          href: "https://docs.google.com/document/d/1P5AXu7HOL4yBRDCwqUuIug3ZJSbmHDF1/edit#heading=h.bwaw2kd0pxzo",
         },
         {
           name: "Material de Estudio en PDF",
-          href: "/",
+          href: "#",
         },
         {
           name: "Hardware & Software - Aplastatopos",
@@ -30,7 +30,7 @@ export default function App() {
           name: "Ejercicios de Excel",
           href: "https://docs.google.com/document/d/1mQHVrVNQAC1A0I8r9M1vA2D3Yz2Eg0ZT/edit#heading=h.z2qd0w7qgn6l",
         },
-        { name: "Actividad Extra", href: "/" },
+        { name: "Actividad Extra", href: "#" },
       ],
     },
     {
@@ -66,7 +66,7 @@ export default function App() {
           name: "Ejercicios de Excel",
           href: "https://docs.google.com/document/d/1aSSy-2VCZ9ajBYLis8i2Dnu_N26Vnlnw/edit",
         },
-        { name: "Actividad Extra", href: "/" },
+        { name: "Actividad Extra", href: "#" },
       ],
     },
   ];

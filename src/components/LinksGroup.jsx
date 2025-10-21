@@ -23,7 +23,7 @@ export default function LinksGroup({ course }) {
             <a
               href={link.href}
               className="py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
-              target="_blank"
+              target={link.href=="#" ? "" : "_blank"}
               onMouseEnter={(e) => {
                 const position = navRef.current.getBoundingClientRect().top;
                 const btn = e.target.getBoundingClientRect();
