@@ -2,7 +2,8 @@ import { useRef, useState } from "react";
 
 export default function LinksGroup({ course }) {
   const [btnHover, setBtnHover] = useState({ left: 0, w: 0, h: 0 });
-  const navRef = useRef(null);
+  const linkContainer = useRef(null);
+  const linkSubContainer = useRef(null);
   const [isListOpened, setListOpened] = useState(false);
 
   return (
@@ -15,17 +16,29 @@ export default function LinksGroup({ course }) {
         {course.name}
       </button>
       <div
-        ref={navRef}
-        className={`group relative border border-t-0 ${isListOpened ? "h-fit p-2 border-gray-800 rounded-b-md" : "h-0 border-transparent"} overflow-hidden w-full flex flex-col gap-2 transition-all duration-300 ease-in-out bg-900`}
+        ref={linkContainer}
+        className={`border border-t-0 ${
+          isListOpened ? `border-gray-800 rounded-b-md` : "border-transparent"
+        } overflow-hidden transition-all duration-200 ease-in-out`}
+        style={{
+          height: isListOpened
+            ? linkSubContainer.current.getBoundingClientRect().height
+            : 0,
+        }}
       >
-        {course.links.map((link, linkIndex) => (
-          <div key={linkIndex} className="z-1 relative flex flex-col">
+        <div
+          ref={linkSubContainer}
+          className="group relative w-full flex flex-col gap-2 p-2"
+        >
+          {course.links.map((link, linkIndex) => (
             <a
+              key={linkIndex}
               href={link.href}
-              className="py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
-              target={link.href=="#" ? "" : "_blank"}
+              className="z-1 py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
+              target={link.href == "#" ? "" : "_blank"}
               onMouseEnter={(e) => {
-                const position = navRef.current.getBoundingClientRect().top;
+                const position =
+                  linkContainer.current.getBoundingClientRect().top;
                 const btn = e.target.getBoundingClientRect();
                 setBtnHover({
                   t: btn.top - position,
@@ -38,24 +51,24 @@ export default function LinksGroup({ course }) {
                 className="size-4"
                 src={
                   link.href.includes("docs.google.com")
-                    ? "/google_docs.ico"
+                    ? "/icon/google_docs.ico"
                     : !link.href.includes("http")
-                      ? "/pdf_logo.png"
+                      ? "/icon/pdf_logo.png"
                       : `https://www.google.com/s2/favicons?domain_url=${link.href}`
                 }
               />
               {link.name}
             </a>
-          </div>
-        ))}
-        <div
-          className="absolute w-0 rounded-sm group-hover:bg-gray-800 transition-all duration-150"
-          style={{
-            top: btnHover.t,
-            width: btnHover.w,
-            height: btnHover.h,
-          }}
-        ></div>
+          ))}
+          <div
+            className="absolute w-0 rounded-sm group-hover:bg-gray-800 transition-all duration-150"
+            style={{
+              top: btnHover.t,
+              width: btnHover.w,
+              height: btnHover.h,
+            }}
+          ></div>
+        </div>
       </div>
     </article>
   );

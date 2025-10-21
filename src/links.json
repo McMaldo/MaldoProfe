@@ -1,0 +1,75 @@
+[
+  {
+    "name": "1ro - Computación",
+    "links": [
+      {
+        "name": "Material de Estudio - Firmware | DOC",
+        "href": "https://docs.google.com/document/d/1P5AXu7HOL4yBRDCwqUuIug3ZJSbmHDF1/edit#heading=h.bwaw2kd0pxzo"
+      },
+      {
+        "name": "Material de Estudio | PDF",
+        "href": "/Secundaria_JRJ/1ro-comp.pdf"
+      },
+      {
+        "name": "Hardware & Software - Aplastatopos",
+        "href": "https://wordwall.net/resource/14511128/hardware-y-software"
+      },
+      {
+        "name": "Hardware & Software - Ordenar por Grupo",
+        "href": "https://wordwall.net/resource/6628770/hardware-y-software"
+      }
+    ]
+  },
+  {
+    "name": "3ro - Informática",
+    "links": [
+      {
+        "name": "Ejercicios de Excel | DOC",
+        "href": "https://docs.google.com/document/d/1mQHVrVNQAC1A0I8r9M1vA2D3Yz2Eg0ZT/edit#heading=h.z2qd0w7qgn6l"
+      },
+      {
+        "name": "Ejercicios de Excel | PDF",
+        "href": "/Secundaria_JRJ/3ro-info.pdf"
+      }
+    ]
+  },
+  {
+    "name": "4to - NTICX",
+
+    "links": [
+      {
+        "name": "Material de Estudio | Canva",
+        "href": "https://www.canva.com/design/DAG2SuIu-a8/bIweGZPkHmRwC2yPuWu4SQ/edit?utm_content=DAG2SuIu-a8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      },
+      {
+        "name": "Material de Estudio | PDF",
+        "href": "/Secundaria_JRJ/4to-nticx.pdf"
+      },
+      {
+        "name": "1ra Parte - Crucigrama",
+        "href": "https://es.educaplay.com/recursos-educativos/26064143-nticx_4to_ano.html"
+      },
+      {
+        "name": "1ra Parte - Sopa de Letras",
+        "href": "https://www.educaplay.com/learning-resources/26063413-nticx_4to_ano.html"
+      },
+      {
+        "name": "2da Parte - Unir con Flechas",
+        "href": "https://es.educaplay.com/recursos-educativos/26063818-nticx_4to_ano.html"
+      }
+    ]
+  },
+  {
+    "name": "6to - Informática",
+    "links": [
+      {
+        "name": "Ejercicios de Excel | DOC",
+        "href": "https://docs.google.com/document/d/1aSSy-2VCZ9ajBYLis8i2Dnu_N26Vnlnw/edit"
+      },
+      {
+        "name": "Ejercicios de Excel | PDF",
+        "href": "/Secundaria_JRJ/6to-info.pdf"
+      }
+    ]
+  }
+]
