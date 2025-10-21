@@ -6,9 +6,9 @@ export default function LinksGroup({ course }) {
   const [isListOpened, setListOpened] = useState(false);
 
   return (
-    <article className="w-full flex flex-col gap-2">
+    <article className="w-full flex flex-col">
       <button
-        className="rounded-md bg-gray-900 py-2 px-4 text-start border border-transparent text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-gray-700 hover:bg-gray-800 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer"
+        className={`${isListOpened ? "rounded-t-md" : "rounded-md"} bg-gray-800 py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-gray-600 hover:bg-gray-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer`}
         type="button"
         onClick={() => setListOpened(!isListOpened)}
       >
@@ -16,13 +16,10 @@ export default function LinksGroup({ course }) {
       </button>
       <div
         ref={navRef}
-        className={`group relative ${isListOpened ? "h-fit p-2 border border-gray-800 rounded-lg" : "h-0"} overflow-hidden w-full flex flex-col gap-2 transition-all duration-300 ease-in-out bg-900`}
+        className={`group relative border border-t-0 ${isListOpened ? "h-fit p-2 border-gray-800 rounded-b-md" : "h-0 border-transparent"} overflow-hidden w-full flex flex-col gap-2 transition-all duration-300 ease-in-out bg-900`}
       >
         {course.links.map((link, linkIndex) => (
-          <div
-            key={linkIndex}
-            className="z-1 relative flex flex-col bg-transparent"
-          >
+          <div key={linkIndex} className="z-1 relative flex flex-col">
             <a
               href={link.href}
               className="py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
@@ -52,7 +49,7 @@ export default function LinksGroup({ course }) {
           </div>
         ))}
         <div
-          className="absolute w-0 rounded-sm group-hover:bg-gray-900 transition-all duration-150"
+          className="absolute w-0 rounded-sm group-hover:bg-gray-800 transition-all duration-150"
           style={{
             top: btnHover.t,
             width: btnHover.w,
