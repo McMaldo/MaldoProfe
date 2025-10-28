@@ -9,7 +9,7 @@ export default function LinksGroup({ course }) {
   return (
     <article className="w-full flex flex-col">
       <button
-        className={`${isListOpened ? "rounded-t-md" : "rounded-md"} bg-gray-800 py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-gray-600 hover:bg-gray-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer`}
+        className={`${isListOpened ? "rounded-t-md" : "rounded-md"} bg-gray-900 py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-gray-700 hover:bg-gray-800 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer`}
         type="button"
         onClick={() => setListOpened(!isListOpened)}
       >
@@ -18,7 +18,7 @@ export default function LinksGroup({ course }) {
       <div
         ref={linkContainer}
         className={`border border-t-0 ${
-          isListOpened ? `border-gray-800 rounded-b-md` : "border-transparent"
+          isListOpened ? `border-gray-900 rounded-b-md` : "border-transparent"
         } overflow-hidden transition-all duration-200 ease-in-out`}
         style={{
           height: isListOpened
@@ -30,38 +30,49 @@ export default function LinksGroup({ course }) {
           ref={linkSubContainer}
           className="group relative w-full flex flex-col gap-2 p-2"
         >
-          {course.links.map((link, linkIndex) => (
-            <a
-              key={linkIndex}
-              href={link.href}
-              className="z-1 py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
-              target={link.href == "#" ? "" : "_blank"}
-              onMouseEnter={(e) => {
-                const position =
-                  linkContainer.current.getBoundingClientRect().top;
-                const btn = e.target.getBoundingClientRect();
-                setBtnHover({
-                  t: btn.top - position,
-                  w: btn.width,
-                  h: btn.height,
-                });
-              }}
-            >
-              <img
-                className="size-4"
-                src={
-                  link.href.includes("docs.google.com")
-                    ? "/icon/google_docs.ico"
-                    : !link.href.includes("http")
-                      ? "/icon/pdf_logo.png"
-                      : `https://www.google.com/s2/favicons?domain_url=${link.href}`
-                }
-              />
-              {link.name}
-            </a>
-          ))}
+          {course.links.map((link, linkIndex) =>
+            link.href ? (
+              <a
+                key={linkIndex}
+                href={link.href}
+                className="z-1 py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
+                target="_blank"
+                onMouseEnter={(e) => {
+                  const position =
+                    linkContainer.current.getBoundingClientRect().top;
+                  const btn = e.target.getBoundingClientRect();
+                  setBtnHover({
+                    t: btn.top - position,
+                    w: btn.width,
+                    h: btn.height,
+                  });
+                }}
+              >
+                <img
+                  className="size-4"
+                  src={
+                    link.href.includes("docs.google.com/document")
+                      ? "/icon/google_docs.ico"
+                      : link.href.includes("docs.google.com/spreadsheets")
+                        ? "/icon/google_spreadsheets.ico"
+                        : link.href.includes(".pdf")
+                          ? "/icon/pdf_logo.png"
+                          : `https://www.google.com/s2/favicons?domain_url=${link.href}`
+                  }
+                />
+                {link.name}
+              </a>
+            ) : (
+              <span
+                key={linkIndex}
+                className="z-1 pt-1 mx-3 text-slate-300 font-light w-[calc(100%-1.5rem)] border-b border-gray-900 text-sm"
+              >
+                {link.name}
+              </span>
+            ),
+          )}
           <div
-            className="absolute w-0 rounded-sm group-hover:bg-gray-800 transition-all duration-150"
+            className="absolute w-0 rounded-sm group-hover:bg-gray-900 transition-all duration-150"
             style={{
               top: btnHover.t,
               width: btnHover.w,
