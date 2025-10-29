@@ -9,7 +9,7 @@
       },
       {
         "name": "Firmware - Material de Estudio | PDF",
-        "href": "/Secundaria_JRJ/1ro-comp.pdf"
+        "href": "/Secundaria_JRJ/1ro-comp/clase1.pdf"
       },
       {
         "name": "Hardware & Software - Aplastatopos",
@@ -18,6 +18,15 @@
       {
         "name": "Hardware & Software - Ordenar por Grupo",
         "href": "https://wordwall.net/resource/6628770/hardware-y-software"
+      },
+      { "name": "Clase 2" },
+      {
+        "name": "Firmware vs Software | DOC",
+        "href": "https://docs.google.com/document/d/1iERPKJbx_6wuF42s-u4aZMN_qkR-mAYRIY-DIBFlB9s/edit?usp=sharing"
+      },
+      {
+        "name": "Firmware vs Software | PDF",
+        "href": "/Secundaria_JRJ/1ro-comp/clase2.pdf"
       }
     ]
   },
@@ -46,10 +55,6 @@
         "name": "Lista de Alumnos | Hoja de Calculo",
         "href": "https://docs.google.com/spreadsheets/d/1YcsSwMKX0zECi-u4zgkLZJZli6dWTo2xgweXn9xOOvY/edit?usp=sharing"
       },
-      {
-        "name": "Plantilla Factura Tipo C | Hoja de Calculo",
-        "href": "https://docs.google.com/spreadsheets/d/11xnFHkN9v98iq9bes576R3sKPoij5ntu/edit?usp=sharing&ouid=111776696898448369051&rtpof=true&sd=true"
-      },
       { "name": "Clase 3" },
       {
         "name": "Ejercicios de Excel | DOC",
@@ -58,6 +63,10 @@
       {
         "name": "Ejercicios de Excel | PDF",
         "href": "/Secundaria_JRJ/3ro-info/clase3.pdf"
+      },
+      {
+        "name": "Plantilla Factura Tipo C | Hoja de Calculo",
+        "href": "https://docs.google.com/spreadsheets/d/11xnFHkN9v98iq9bes576R3sKPoij5ntu/edit?usp=sharing&ouid=111776696898448369051&rtpof=true&sd=true"
       }
     ]
   },
@@ -86,6 +95,11 @@
       {
         "name": "2da Parte - Unir con Flechas",
         "href": "https://es.educaplay.com/recursos-educativos/26063818-nticx_4to_ano.html"
+      },
+      { "name": "Clase 3" },
+      {
+        "name": "Cuestionario | PDF",
+        "href": "/Secundaria_JRJ/4to-nticx/cuestionario.pdf"
       }
     ]
   },

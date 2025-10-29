@@ -32,14 +32,16 @@ export default function LinksGroup({ course }) {
         >
           {course.links.map((link, linkIndex) =>
             link.href ? (
-              <div
+              <a
                 key={linkIndex}
+                href={link.href}
+                target="_blank"
                 className="z-1 w-fill"
                 onMouseEnter={(e) => {
                   const position =
                     linkContainer.current.getBoundingClientRect().top;
                   const btn = e.currentTarget
-                    .querySelector("a")
+                    .querySelector("div")
                     .getBoundingClientRect();
                   setBtnHover({
                     t: btn.top - position,
@@ -48,11 +50,7 @@ export default function LinksGroup({ course }) {
                   });
                 }}
               >
-                <a
-                  href={link.href}
-                  target="_blank"
-                  className="py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
-                >
+                <div className="py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center">
                   <img
                     className="size-4"
                     src={
@@ -66,8 +64,8 @@ export default function LinksGroup({ course }) {
                     }
                   />
                   {link.name}
-                </a>
-              </div>
+                </div>
+              </a>
             ) : (
               <span
                 key={linkIndex}
