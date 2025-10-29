@@ -32,15 +32,15 @@ export default function LinksGroup({ course }) {
         >
           {course.links.map((link, linkIndex) =>
             link.href ? (
-              <a
+              <div
                 key={linkIndex}
-                href={link.href}
-                className="z-1 py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
-                target="_blank"
+                className="z-1 w-fill"
                 onMouseEnter={(e) => {
                   const position =
                     linkContainer.current.getBoundingClientRect().top;
-                  const btn = e.target.getBoundingClientRect();
+                  const btn = e.currentTarget
+                    .querySelector("a")
+                    .getBoundingClientRect();
                   setBtnHover({
                     t: btn.top - position,
                     w: btn.width,
@@ -48,24 +48,30 @@ export default function LinksGroup({ course }) {
                   });
                 }}
               >
-                <img
-                  className="size-4"
-                  src={
-                    link.href.includes("docs.google.com/document")
-                      ? "/icon/google_docs.ico"
-                      : link.href.includes("docs.google.com/spreadsheets")
-                        ? "/icon/google_spreadsheets.ico"
-                        : link.href.includes(".pdf")
-                          ? "/icon/pdf_logo.png"
-                          : `https://www.google.com/s2/favicons?domain_url=${link.href}`
-                  }
-                />
-                {link.name}
-              </a>
+                <a
+                  href={link.href}
+                  target="_blank"
+                  className="py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center"
+                >
+                  <img
+                    className="size-4"
+                    src={
+                      link.href.includes("docs.google.com/document")
+                        ? "/icon/google_docs.ico"
+                        : link.href.includes("docs.google.com/spreadsheets")
+                          ? "/icon/google_spreadsheets.ico"
+                          : link.href.includes(".pdf")
+                            ? "/icon/pdf_logo.png"
+                            : `https://www.google.com/s2/favicons?domain_url=${link.href}`
+                    }
+                  />
+                  {link.name}
+                </a>
+              </div>
             ) : (
               <span
                 key={linkIndex}
-                className="z-1 pt-1 mx-3 text-slate-300 font-light w-[calc(100%-1.5rem)] border-b border-gray-900 text-sm"
+                className="z-1 pt-1 mx-3 text-gray-400 font-light w-[calc(100%-1.5rem)] border-b border-gray-900 text-sm"
               >
                 {link.name}
               </span>

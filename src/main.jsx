@@ -29,13 +29,15 @@ createRoot(document.getElementById("root")).render(
         />
         <div className="absolute top-0 left-0 size-full flex flex-col gap-4 items-center justify-center px-4">
           <h1 className="text-3xl text-center">Clases con MaldoProfe</h1>
-          <div className="flex gap-4">
-            <span className="border border-gray-800 bg-gray-900 py-1 px-3 rounded-full text-sm">
-              Computación
-            </span>
-            <span className="border border-gray-800 bg-gray-900 py-1 px-3 rounded-full text-sm">
-              NTICX
-            </span>
+          <div className="flex gap-4 flex-wrap justify-center">
+            {["Computación", "Informática", "NTICX"].map((tag, tagIndex) => (
+              <span
+                key={tagIndex}
+                className="border border-gray-800 bg-gray-900 py-1 px-3 rounded-full text-sm"
+              >
+                {tag}
+              </span>
+            ))}
           </div>
         </div>
       </div>

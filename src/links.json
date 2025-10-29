@@ -53,7 +53,7 @@
       { "name": "Clase 3" },
       {
         "name": "Ejercicios de Excel | DOC",
-        "href": "https://docs.google.com/document/d/1mQHVrVNQAC1A0I8r9M1vA2D3Yz2Eg0ZT/edit#heading=h.z2qd0w7qgn6l"
+        "href": "https://docs.google.com/document/d/1RO7TDHfrSinqNFWCzCeSXuhbIJYBU0XorMQmopzWmZo/edit?usp=sharing"
       },
       {
         "name": "Ejercicios de Excel | PDF",
@@ -67,12 +67,8 @@
     "links": [
       { "name": "Clase 1" },
       {
-        "name": "Ciberespacio - Material de Estudio | Canva",
-        "href": "https://www.canva.com/design/DAG2SuIu-a8/bIweGZPkHmRwC2yPuWu4SQ/edit?utm_content=DAG2SuIu-a8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-      },
-      {
-        "name": "Ciberespacio - Material de Estudio | PDF",
-        "href": "/Secundaria_JRJ/4to-nticx.pdf"
+        "name": "1ra Parte - Material de Estudio | PDF",
+        "href": "/Secundaria_JRJ/4to-nticx/1ra-parte.pdf"
       },
       {
         "name": "1ra Parte - Crucigrama",
@@ -84,6 +80,10 @@
       },
       { "name": "Clase 2" },
       {
+        "name": "2da Parte - Material de Estudio | PDF",
+        "href": "/Secundaria_JRJ/4to-nticx/2da-parte.pdf"
+      },
+      {
         "name": "2da Parte - Unir con Flechas",
         "href": "https://es.educaplay.com/recursos-educativos/26063818-nticx_4to_ano.html"
       }
@@ -94,12 +94,26 @@
     "links": [
       { "name": "Clase 1" },
       {
-        "name": "IPC - Ejercicios de Excel | DOC",
-        "href": "https://docs.google.com/document/d/1aSSy-2VCZ9ajBYLis8i2Dnu_N26Vnlnw/edit"
+        "name": "IPC - Ejercicios | DOC",
+        "href": "https://docs.google.com/document/d/1aSSy-2VCZ9ajBYLis8i2Dnu_N26Vnlnw/edit?usp=sharing&ouid=111776696898448369051&rtpof=true&sd=true"
       },
       {
-        "name": "IPC - Ejercicios de Excel | PDF",
-        "href": "/Secundaria_JRJ/6to-info.pdf"
+        "name": "IPC - Ejercicios | PDF",
+        "href": "/Secundaria_JRJ/6to-info/clase1.pdf"
+      },
+      { "name": "Clase 2" },
+      {
+        "name": "IPC - Ejercicios | DOC",
+        "href": "https://docs.google.com/document/d/1JkDas10YS45bHPHjuoFbSA_VUz0s77PCd-DW6yLB0aM/edit?usp=sharing"
+      },
+      {
+        "name": "IPC - Ejercicios | PDF",
+        "href": "/Secundaria_JRJ/6to-info/clase2.pdf"
+      },
+      { "name": "Extras" },
+      {
+        "name": "Aprende a Programar | Scratch",
+        "href": "https://scratch.mit.edu/projects/editor/?tutorial=getStarted"
       }
     ]
   }
