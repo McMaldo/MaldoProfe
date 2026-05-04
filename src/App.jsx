@@ -4,7 +4,7 @@ import Heading from "./components/Heading.jsx";
 
 export default function App() {
   return (
-    <main className="w-full max-w-200 min-h-dvh text-white flex flex-col items-center justify-center gap-4 py-8 px-4">
+    <main className="w-full max-w-200 min-h-dvh text-white flex flex-col items-center gap-4 py-8 px-4">
       <div className="relative w-full h-60 rounded-md overflow-hidden select-none">
         <Heading />
         <div className="absolute top-0 left-0 size-full flex flex-col gap-4 items-center justify-center px-4">

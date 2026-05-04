@@ -36,7 +36,7 @@ export default function LinksGroup({ course }) {
                 key={linkIndex}
                 href={link.href}
                 target="_blank"
-                className="z-1 w-fill"
+                className="z-1 w-fill flex gap-2"
                 onMouseEnter={(e) => {
                   const position =
                     linkContainer.current.getBoundingClientRect().top;
@@ -63,8 +63,14 @@ export default function LinksGroup({ course }) {
                             : `https://www.google.com/s2/favicons?domain_url=${link.href}`
                     }
                   />
-                  {link.name}
+                  <span>{link.name}</span>
                 </div>
+
+                {link.date && (
+                  <span className="flex-1 text-end text-gray-800">
+                    {link.date}
+                  </span>
+                )}
               </a>
             ) : (
               <span
