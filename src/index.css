@@ -1,1 +1,59 @@
 @import "tailwindcss";
+
+@theme {
+    /* mocha */
+    --color-text: #cdd6f4;
+    --color-subtext-1: #bac2de;
+    --color-subtext-0: #a6adc8;
+
+    --color-surface-2: #585b70;
+    --color-surface-1: #45475a;
+    --color-surface-0: #313244;
+
+    --color-base: #1e1e2e;
+    --color-mantle: #181825;
+    --color-crust: #11111b;
+}
+[data-theme="light"] {
+    /* latte */
+    --color-text: #4c4f69;
+    --color-subtext-1: #5c5f77;
+    --color-subtext-0: #6c6f85;
+
+    --color-surface-2: #acb0be;
+    --color-surface-1: #bcc0cc;
+    --color-surface-0: #ccd0da;
+
+    --color-base: #eff1f5;
+    --color-mantle: #e6e9ef;
+    --color-crust: #dce0e8;
+}
+
+.fa-icon {
+    fill: var(--color-surface-0);
+}
+.fa-icon-light {
+    fill: var(--color-surface-0);
+}
+.fa-icon-invert {
+    fill: var(--color-mantle);
+}
+.fa-icon-accent {
+    fill: var(--color-text);
+}
+.fa-icon-red {
+    fill: var(--color-red-400);
+}
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.animate-scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+}

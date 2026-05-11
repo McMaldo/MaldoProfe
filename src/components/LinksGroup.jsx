@@ -7,9 +7,9 @@ export default function LinksGroup({ course }) {
   const [isListOpened, setListOpened] = useState(false);
 
   return (
-    <article className="w-full flex flex-col">
+    <article className="animate-scale-in w-full flex flex-col">
       <button
-        className={`${isListOpened ? "rounded-t-md" : "rounded-md"} bg-gray-900 py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-gray-700 hover:bg-gray-800 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer`}
+        className={`${isListOpened ? "rounded-t-md" : "rounded-md"} bg-mantle py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-surface-0 hover:bg-base active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer`}
         type="button"
         onClick={() => setListOpened(!isListOpened)}
       >
@@ -18,7 +18,7 @@ export default function LinksGroup({ course }) {
       <div
         ref={linkContainer}
         className={`border border-t-0 ${
-          isListOpened ? `border-gray-900 rounded-b-md` : "border-transparent"
+          isListOpened ? `border-mantle rounded-b-md` : "border-transparent"
         } overflow-hidden transition-all duration-200 ease-in-out`}
         style={{
           height: isListOpened
@@ -28,7 +28,7 @@ export default function LinksGroup({ course }) {
       >
         <div
           ref={linkSubContainer}
-          className="group relative w-full flex flex-col gap-2 p-2"
+          className="group relative w-full flex flex-col p-2"
         >
           {course.links.map((link, linkIndex) =>
             link.href ? (
@@ -50,7 +50,7 @@ export default function LinksGroup({ course }) {
                   });
                 }}
               >
-                <div className="py-1 px-3 text-slate-300 font-light w-fit flex gap-2 items-center">
+                <div className="py-1 px-2 text-subtext-1 font-light w-fit flex gap-2 items-center">
                   <img
                     className="size-4"
                     src={
@@ -67,7 +67,7 @@ export default function LinksGroup({ course }) {
                 </div>
 
                 {link.date && (
-                  <span className="flex-1 text-end text-gray-800">
+                  <span className="flex-1 text-end text-surface-0">
                     {link.date}
                   </span>
                 )}
@@ -75,14 +75,14 @@ export default function LinksGroup({ course }) {
             ) : (
               <span
                 key={linkIndex}
-                className="z-1 pt-1 mx-3 text-gray-400 font-light w-[calc(100%-1.5rem)] border-b border-gray-900 text-sm"
+                className="z-1 pt-1 mx-3 text-subtext-0 font-light w-[calc(100%-1.5rem)] border-b border-mantle text-sm"
               >
                 {link.name}
               </span>
             ),
           )}
           <div
-            className="absolute w-0 rounded-sm group-hover:bg-gray-900 transition-all duration-150"
+            className="absolute w-0 rounded-sm group-hover:bg-mantle transition-all duration-150"
             style={{
               top: btnHover.t,
               width: btnHover.w,
