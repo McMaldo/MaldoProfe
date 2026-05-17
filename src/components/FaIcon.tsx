@@ -1,3 +1,8 @@
+/**
+ * `FaIcon` returns a svg icon/image from a svg sprite. 
+ *
+ * @version 1.0.0
+ */
 const FaIcon: React.FC<{
   name?: string;
   size?: string;

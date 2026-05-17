@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import CondensedMessage from "./CondensedMessage";
 
 export default function LinksGroup({ course }) {
   const [btnHover, setBtnHover] = useState({ left: 0, w: 0, h: 0 });
@@ -6,14 +7,28 @@ export default function LinksGroup({ course }) {
   const linkSubContainer = useRef(null);
   const [isListOpened, setListOpened] = useState(false);
 
+  const [isHovered, setHovered] = useState(false);
+
   return (
-    <article className="animate-scale-in w-full flex flex-col">
+    <article
+      className={`animate-scale-in w-full flex flex-col ${isHovered ? "z-8" : "z-0"}`}
+    >
       <button
-        className={`${isListOpened ? "rounded-t-md" : "rounded-md"} bg-mantle py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-surface-0 hover:bg-base active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer`}
+        className={`z-2 ${isListOpened ? "rounded-t-md" : "rounded-md"} bg-mantle py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-surface-0 hover:bg-base active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer flex items-center justify-between overflow-visible`}
         type="button"
         onClick={() => setListOpened(!isListOpened)}
       >
-        {course.name}
+        <span>{course.name}</span>
+
+        {course.desc ? (
+          course.desc.includes("\n") ? (
+            <CondensedMessage msg={course.desc} onHoverChange={setHovered} />
+          ) : (
+            <span className="text-surface-1 text-md">{course.desc}</span>
+          )
+        ) : (
+          ""
+        )}
       </button>
       <div
         ref={linkContainer}

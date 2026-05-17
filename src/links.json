@@ -6,12 +6,13 @@
       {
         "id": "1ro",
         "name": "1er año",
+        "desc": "1ro A: Mie 14:15 - 15:15hs\n1ro B: Vie 14:15 - 15:15hs",
         "links": [
           {
             "id": "1",
             "name": "Clase 1 - Introducción | DOC",
-            "href": "https://docs.google.com/document/d/1jjFfiprtl6zGSrxGX5dqbf4zrtmyAepH3_id2QMABDE/edit?usp=sharing",
-            "date": "09/04"
+            "href": "https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",
+            "date": "08/04"
           },
           {
             "id": "2",
@@ -29,30 +30,31 @@
             "id": "4",
             "name": "Clase 4 - Tablas en Documentos | DOC",
             "href": "https://docs.google.com/document/d/10RCnjWBBs1IxTXcwwufOpfDAVpK_QPoNpSh40dMoApo/edit?usp=sharing",
-            "date": "04/05"
+            "date": "06/05"
           },
           {
             "id": "5",
             "name": "Clase 5 - Tablas en Documentos (parte 2) | DOC",
-            "href": "https://docs.google.com/document/d/10Z22IogpR8fj5wH8cI2-0ssvxOiopwn4l7-wyDbxR2M/edit?usp=sharing",
-            "date": "11/05"
+            "href": "https://docs.google.com/document/d/1aqJGmEGtTd9NkPggJ6mrIu46v5Jh0z7eAj-CzlDWDZ8/edit?usp=sharing",
+            "date": "13/05"
           },
           {
             "id": "6",
             "name": "Clase 6 - Tablas en Documentos (parte 3) | DOC",
-            "href": "https://docs.google.com/document/d/1eF1duMYNGXyL1YGkuyn6M5neBea9vyvFrk5rLzwek-4/edit?usp=sharing",
-            "date": "18/05"
+            "href": "https://docs.google.com/document/d/14O66U2Yx3R48hU6tL6tfjifIwlSLTFcIRhyt0g6X6DE/edit?usp=sharing",
+            "date": "20/05"
           }
         ]
       },
       {
         "id": "2do",
         "name": "2do año",
+        "desc": "Lun 13:15 - 14:15hs",
         "links": [
           {
             "id": "1",
             "name": "Clase 1 - Introducción | DOC",
-            "href": "https://docs.google.com/document/d/1jjFfiprtl6zGSrxGX5dqbf4zrtmyAepH3_id2QMABDE/edit?usp=sharing",
+            "href": "https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",
             "date": "13/04"
           },
           {
@@ -91,11 +93,12 @@
       {
         "id": "3ro",
         "name": "3er año",
+        "desc": "Lun 14:15 - 15:15hs",
         "links": [
           {
             "id": "1",
             "name": "Clase 1 - Introducción | DOC",
-            "href": "https://docs.google.com/document/d/1jjFfiprtl6zGSrxGX5dqbf4zrtmyAepH3_id2QMABDE/edit?usp=sharing",
+            "href": "https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",
             "date": "13/04"
           },
           {
@@ -133,33 +136,43 @@
       {
         "id": "4to",
         "name": "4to año",
+        "desc": "Mie 13:15 - 14:15hs",
         "links": [
           {
             "id": "1",
             "name": "Clase 1 - Introducción | DOC",
-            "href": "https://docs.google.com/document/d/1jjFfiprtl6zGSrxGX5dqbf4zrtmyAepH3_id2QMABDE/edit?usp=sharing"
+            "href": "https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",
+            "date": "08/04"
           },
           {
             "id": "2",
             "name": "Clase 2 - Introducción a Documentos | DOC",
-            "href": "https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing"
+            "href": "https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing",
+            "date": "22/04"
           },
           {
             "id": "3",
             "name": "Clase 3 - Introducción a Documentos (parte 2) | DOC",
-            "href": "https://docs.google.com/document/d/1tXyb7zH-Lj2EOJnYZh02FKIikvkADiZX8oQnOd--LWY/edit?usp=sharing"
+            "href": "https://docs.google.com/document/d/1tXyb7zH-Lj2EOJnYZh02FKIikvkADiZX8oQnOd--LWY/edit?usp=sharing",
+            "date": "29/04"
           },
           {
             "id": "4",
             "name": "Clase 4 - Tablas en Documentos | DOC",
             "href": "https://docs.google.com/document/d/10RCnjWBBs1IxTXcwwufOpfDAVpK_QPoNpSh40dMoApo/edit?usp=sharing",
-            "date": "04/05"
+            "date": "06/05"
           },
           {
             "id": "5",
             "name": "Clase 5 - Tablas en Documentos (parte 2) | DOC",
-            "href": "https://docs.google.com/document/d/1Qyvd_vR5CE9BAbRkfNbO3HsLQUlOwCxN5R8gi2tahzE/edit?usp=sharing",
-            "date": "11/05"
+            "href": "https://docs.google.com/document/d/10Z22IogpR8fj5wH8cI2-0ssvxOiopwn4l7-wyDbxR2M/edit?usp=sharing",
+            "date": "13/05"
+          },
+          {
+            "id": "6",
+            "name": "Clase 6 - Tablas en Documentos (parte 3) | DOC",
+            "href": "https://docs.google.com/document/d/1eF1duMYNGXyL1YGkuyn6M5neBea9vyvFrk5rLzwek-4/edit?usp=sharing",
+            "date": "20/05"
           }
         ]
       },
@@ -167,11 +180,12 @@
       {
         "id": "5to",
         "name": "5to año",
+        "desc": "Vie 13:15 - 14:15hs",
         "links": [
           {
             "id": "1",
             "name": "Clase 1 - Introducción | DOC",
-            "href": "https://docs.google.com/document/d/1jjFfiprtl6zGSrxGX5dqbf4zrtmyAepH3_id2QMABDE/edit?usp=sharing",
+            "href": "https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",
             "date": "10/04"
           },
           {
@@ -195,19 +209,26 @@
           {
             "id": "5",
             "name": "Clase 5 - Tablas en Documentos (parte 2) | DOC",
-            "href": "https://docs.google.com/document/d/1Qyvd_vR5CE9BAbRkfNbO3HsLQUlOwCxN5R8gi2tahzE/edit?usp=sharing",
+            "href": "https://docs.google.com/document/d/10Z22IogpR8fj5wH8cI2-0ssvxOiopwn4l7-wyDbxR2M/edit?usp=sharing",
             "date": "22/05"
+          },
+          {
+            "id": "6",
+            "name": "Clase 6 - Tablas en Documentos (parte 3) | DOC",
+            "href": "https://docs.google.com/document/d/1eF1duMYNGXyL1YGkuyn6M5neBea9vyvFrk5rLzwek-4/edit?usp=sharing",
+            "date": "29/05"
           }
         ]
       },
       {
         "id": "6to",
         "name": "6to año",
+        "desc": "Mar 13:00 - 14:00hs",
         "links": [
           {
             "id": "1",
             "name": "Clase 1 - Introducción | DOC",
-            "href": "https://docs.google.com/document/d/1jjFfiprtl6zGSrxGX5dqbf4zrtmyAepH3_id2QMABDE/edit?usp=sharing",
+            "href": "https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",
             "date": "07/04"
           },
           {
