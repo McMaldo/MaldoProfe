@@ -1,7 +1,7 @@
 /**
  * `CondensedMessage` returns a condensed message with a tooltip
  * shows an ellipsis icon when the message is truncated, if hovered, it will show the full message in a tooltip.
- * 
+ *
  * @version 1.0.0
  */
 import { FC, useState } from "react";
@@ -25,7 +25,7 @@ const CondensedMessage: FC<{
     <div
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
-      className="z-9 relative px-2 rounded-sm bg-crust h-full"
+      className="z-9 relative px-2 rounded-sm bg-base h-full"
     >
       <FaIcon name="ellipsis" />
       <div

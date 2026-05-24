@@ -7,7 +7,7 @@ const Search: React.FC<{
 }> = ({ searchQuery, setSearchQuery, placeholder = "Busca un Archivo..." }) => {
   return (
     <div
-      className="animate-scale-in relative flex items-center bg-mantle rounded-lg w-full max-w-50"
+      className="shrink-0 animate-scale-in relative flex items-center bg-base rounded-lg w-40 sm:w-70"
       style={{ animationDelay: "0.2s" }}
     >
       <button className="size-10">

@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
+:root {
+    font-family: ubuntu;
+}
+
 @theme {
-    /* mocha */
+    /* dark */
     --color-text: #cdd6f4;
     --color-subtext-1: #bac2de;
     --color-subtext-0: #a6adc8;
@@ -13,9 +17,12 @@
     --color-base: #1e1e2e;
     --color-mantle: #181825;
     --color-crust: #11111b;
+
+    --opacity-hero-img-dark: 1;
+    --opacity-hero-img-light: 0;
 }
-[data-theme="light"] {
-    /* latte */
+[data-theme="latte"] {
+    /* light */
     --color-text: #4c4f69;
     --color-subtext-1: #5c5f77;
     --color-subtext-0: #6c6f85;
@@ -27,10 +34,14 @@
     --color-base: #eff1f5;
     --color-mantle: #e6e9ef;
     --color-crust: #dce0e8;
+
+    --opacity-hero-img-dark: 0;
+    --opacity-hero-img-light: 1;
 }
 
 .fa-icon {
-    fill: var(--color-surface-0);
+    fill: var(--color-surface-2);
+    transition: fill 0.2s;
 }
 .fa-icon-light {
     fill: var(--color-surface-0);
@@ -38,11 +49,15 @@
 .fa-icon-invert {
     fill: var(--color-mantle);
 }
+button:hover .fa-icon,
 .fa-icon-accent {
     fill: var(--color-text);
 }
 .fa-icon-red {
     fill: var(--color-red-400);
+}
+button {
+    cursor: pointer;
 }
 @keyframes scaleIn {
     from {

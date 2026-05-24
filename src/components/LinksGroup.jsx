@@ -14,7 +14,7 @@ export default function LinksGroup({ course }) {
       className={`animate-scale-in w-full flex flex-col ${isHovered ? "z-8" : "z-0"}`}
     >
       <button
-        className={`z-2 ${isListOpened ? "rounded-t-md" : "rounded-md"} bg-mantle py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-surface-0 hover:bg-base active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none cursor-pointer flex items-center justify-between overflow-visible`}
+        className={`z-2 ${isListOpened ? "rounded-t-md" : "rounded-md"} bg-mantle py-2 px-4 text-start border border-transparent text-sm transition-all active:bg-surface-0 hover:bg-base active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none flex items-center justify-between overflow-visible`}
         type="button"
         onClick={() => setListOpened(!isListOpened)}
       >
@@ -78,7 +78,7 @@ export default function LinksGroup({ course }) {
                             : `https://www.google.com/s2/favicons?domain_url=${link.href}`
                     }
                   />
-                  <span>{link.name}</span>
+                  <span>{link.name.split("|")[0]}</span>
                 </div>
 
                 {link.date && (
