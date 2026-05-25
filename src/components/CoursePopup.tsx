@@ -49,7 +49,7 @@ const CoursePopup: FC = () => {
       <div className="fixed inset-0 z-11 bg-black/20 dark:bg-black/40 transition-colors" />
       <div
         ref={ref}
-        className="fixed top-1/2 left-1/2 -translate-1/2 z-12 flex flex-col w-full max-w-2xl my-4 rounded-2xl bg-mantle border border-base shadow-xl overflow-hidden animate-scale-in"
+        className="fixed top-1/2 left-1/2 -translate-1/2 z-12 flex flex-col w-[calc(100%-2rem)] max-w-2xl max-h-[calc(100%-2rem)] rounded-2xl bg-mantle border border-base shadow-xl overflow-hidden animate-scale-in"
       >
         {/* Header */}
         <div className="flex items-start justify-between gap-4 px-5 py-4 border-b border-base">
@@ -87,7 +87,7 @@ const CoursePopup: FC = () => {
           className="group relative bg-crust flex flex-col overflow-y-auto custom-scroll p-3"
         >
           <div
-            className="absolute rounded-sm bg-base transition-all duration-150 pointer-events-none"
+            className="absolute rounded-sm sm:bg-base transition-all duration-150 pointer-events-none"
             style={{ top: btnHover.t, width: btnHover.w, height: btnHover.h }}
           />
           {course.links.map((item, i) =>

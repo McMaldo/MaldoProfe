@@ -20,7 +20,7 @@ const App: FC<{ sections: Section[] }> = ({ sections }) => {
             <h3 className="pt-1 text-surface-2 w-full border-b border-mantle">
               {section.name}
             </h3>
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
               {section.courses.map((course, index) => (
                 <LinksGroup
                   key={index}

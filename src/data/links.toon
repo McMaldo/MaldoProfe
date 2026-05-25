@@ -1,0 +1,246 @@
+[2]:
+  - id: "2026"
+    name: IJRJ - Taller de Informática - 2026
+    courses[6]:
+      - id: 1ro
+        name: 1er año
+        desc: "1ro B: Mie 14:15 - 15:15hs<br>1ro A: Vie 14:15 - 15:15hs"
+        links[6]{id,name,href,date}:
+          "1",Clase 1 - Presentación | DOC,"https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",08/04
+          "2",Clase 2 - Introducción a Documentos | DOC,"https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing",15/04
+          "3",Clase 3 - Introducción a Documentos (parte 2) | DOC,"https://docs.google.com/document/d/1tXyb7zH-Lj2EOJnYZh02FKIikvkADiZX8oQnOd--LWY/edit?usp=sharing",29/04
+          "4",Clase 4 - Tablas en Documentos | DOC,"https://docs.google.com/document/d/10RCnjWBBs1IxTXcwwufOpfDAVpK_QPoNpSh40dMoApo/edit?usp=sharing",06/05
+          "5",Clase 5 - Tablas en Documentos (parte 2) | DOC,"https://docs.google.com/document/d/1aqJGmEGtTd9NkPggJ6mrIu46v5Jh0z7eAj-CzlDWDZ8/edit?usp=sharing",13/05
+          "6",Clase 6 - Tablas en Documentos (parte 3) | DOC,"https://docs.google.com/document/d/14O66U2Yx3R48hU6tL6tfjifIwlSLTFcIRhyt0g6X6DE/edit?usp=sharing",20/05
+      - id: 2do
+        name: 2do año
+        desc: "Lun 13:15 - 14:15hs"
+        links[6]{id,name,href,date}:
+          "1",Clase 1 - Presentación | DOC,"https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",13/04
+          "2",Clase 2 - Introducción a Documentos | DOC,"https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing",20/04
+          "3",Clase 3 - Introducción a Documentos (parte 2) | DOC,"https://docs.google.com/document/d/1tXyb7zH-Lj2EOJnYZh02FKIikvkADiZX8oQnOd--LWY/edit?usp=sharing",27/04
+          "4",Clase 4 - Tablas en Documentos | DOC,"https://docs.google.com/document/d/10RCnjWBBs1IxTXcwwufOpfDAVpK_QPoNpSh40dMoApo/edit?usp=sharing",04/05
+          "5",Clase 5 - Tablas en Documentos (parte 2) | DOC,"https://docs.google.com/document/d/10Z22IogpR8fj5wH8cI2-0ssvxOiopwn4l7-wyDbxR2M/edit?usp=sharing",11/05
+          "6",Clase 6 - Tablas en Documentos (parte 3) | DOC,"https://docs.google.com/document/d/1eF1duMYNGXyL1YGkuyn6M5neBea9vyvFrk5rLzwek-4/edit?usp=sharing",18/05
+      - id: 3ro
+        name: 3er año
+        desc: "Lun 14:15 - 15:15hs"
+        links[6]{id,name,href,date}:
+          "1",Clase 1 - Presentación | DOC,"https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",13/04
+          "2",Clase 2 - Introducción a Documentos | DOC,"https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing",20/04
+          "3",Clase 3 - Introducción a Documentos (parte 2) | DOC,"https://docs.google.com/document/d/1tXyb7zH-Lj2EOJnYZh02FKIikvkADiZX8oQnOd--LWY/edit?usp=sharing",27/04
+          "4",Clase 4 - Tablas en Documentos | DOC,"https://docs.google.com/document/d/10RCnjWBBs1IxTXcwwufOpfDAVpK_QPoNpSh40dMoApo/edit?usp=sharing",04/05
+          "5",Clase 5 - Tablas en Documentos (parte 2) | DOC,"https://docs.google.com/document/d/10Z22IogpR8fj5wH8cI2-0ssvxOiopwn4l7-wyDbxR2M/edit?usp=sharing",11/05
+          "6",Clase 6 - Tablas en Documentos (parte 3) | DOC,"https://docs.google.com/document/d/1eF1duMYNGXyL1YGkuyn6M5neBea9vyvFrk5rLzwek-4/edit?usp=sharing",18/05
+      - id: 4to
+        name: 4to año
+        desc: "Mie 13:15 - 14:15hs"
+        links[6]{id,name,href,date}:
+          "1",Clase 1 - Presentación | DOC,"https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",08/04
+          "2",Clase 2 - Introducción a Documentos | DOC,"https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing",22/04
+          "3",Clase 3 - Introducción a Documentos (parte 2) | DOC,"https://docs.google.com/document/d/1tXyb7zH-Lj2EOJnYZh02FKIikvkADiZX8oQnOd--LWY/edit?usp=sharing",29/04
+          "4",Clase 4 - Tablas en Documentos | DOC,"https://docs.google.com/document/d/10RCnjWBBs1IxTXcwwufOpfDAVpK_QPoNpSh40dMoApo/edit?usp=sharing",06/05
+          "5",Clase 5 - Tablas en Documentos (parte 2) | DOC,"https://docs.google.com/document/d/10Z22IogpR8fj5wH8cI2-0ssvxOiopwn4l7-wyDbxR2M/edit?usp=sharing",13/05
+          "6",Clase 6 - Tablas en Documentos (parte 3) | DOC,"https://docs.google.com/document/d/1eF1duMYNGXyL1YGkuyn6M5neBea9vyvFrk5rLzwek-4/edit?usp=sharing",20/05
+      - id: 5to
+        name: 5to año
+        desc: "Vie 13:15 - 14:15hs"
+        links[6]{id,name,href,date}:
+          "1",Clase 1 - Presentación | DOC,"https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",10/04
+          "2",Clase 2 - Introducción a Documentos | DOC,"https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing",17/04
+          "3",Clase 3 - Introducción a Documentos (parte 2) | DOC,"https://docs.google.com/document/d/1tXyb7zH-Lj2EOJnYZh02FKIikvkADiZX8oQnOd--LWY/edit?usp=sharing",08/05
+          "4",Clase 4 - Tablas en Documentos | DOC,"https://docs.google.com/document/d/10RCnjWBBs1IxTXcwwufOpfDAVpK_QPoNpSh40dMoApo/edit?usp=sharing",15/05
+          "5",Clase 5 - Tablas en Documentos (parte 2) | DOC,"https://docs.google.com/document/d/10Z22IogpR8fj5wH8cI2-0ssvxOiopwn4l7-wyDbxR2M/edit?usp=sharing",22/05
+          "6",Clase 6 - Tablas en Documentos (parte 3) | DOC,"https://docs.google.com/document/d/1eF1duMYNGXyL1YGkuyn6M5neBea9vyvFrk5rLzwek-4/edit?usp=sharing",29/05
+      - id: 6to
+        name: 6to año
+        desc: "Mar 13:00 - 14:00hs"
+        links[17]:
+          - id: "1"
+            name: Clase 1 - Presentación | DOC
+            href: "https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing"
+            date: 07/04
+          - id: "2"
+            name: Clase 2 - Introducción a Documentos | DOC
+            href: "https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing"
+            date: 14/04
+          - name: Hojas de Cálculos
+          - id: "3"
+            name: Clase 3 - Introducción a Hojas de Cálculos | DOC
+            href: "https://docs.google.com/document/d/1lAD6jDDiEwrTlGXDZGDe-99SqSKAkjU7OyudzkNK_RU/edit?usp=sharing"
+            date: 21/04
+          - id: "4"
+            name: Clase 4 - Fórmulas y Funciones | DOC
+            href: "https://docs.google.com/document/d/19yEpePwvoE3b1E8asSgKlXWAAtKpqPohumV_KNRIV2w/edit?usp=sharing"
+            date: 28/04
+          - id: "5"
+            name: Clase 5 - Gráficos | DOC
+            href: "https://docs.google.com/document/d/1X2uM8HTniF03E9UflvK_4O7mUAILxYCSiVtTFndvK80/edit?usp=sharing"
+            date: 19/05
+          - id: "6"
+            name: Clase 6 - Plantillas | DOC
+            href: "https://docs.google.com/document/d/1dYK3vj4NcgCTbsmy6CX5bmkd31bqiEYXWba1X2230Y4/edit?usp=sharing"
+            date: 26/05
+          - id: "7"
+            name: Clase 7 - Gráficos de Barra vs Columnas | DOC
+            href: "https://docs.google.com/document/d/1gJoZs2LC37Np-f9iYX8cYFN1_2S_4X6jnHU2t9zJ1yM/edit?usp=sharing"
+            date: 02/06
+          - id: "8"
+            name: Clase 8 - Gráficos Circulares | DOC
+            href: "https://docs.google.com/document/d/1sAfVBiXOgrQ5d6vBPWe2vr-TyC2y83CJ88vs1zPSDsg/edit?usp=sharing"
+            date: 09/06
+          - id: "9"
+            name: Clase 9 - Gráficos de Lineas | DOC
+            href: "https://docs.google.com/document/d/1reAQybyDcrFb1TeOz5Msw_Axv6fvqFLVxIsShbivyBw/edit?usp=sharing"
+            date: 16/06
+          - id: "10"
+            name: Clase 10 - Intro a Scratch | DOC
+            href: "https://docs.google.com/document/d/1Jhu_29KxVFCzWL2INcM2zwNXzcOyESu5_8qq74KI8PI/edit?usp=sharing"
+            date: 23/06
+          - id: "11"
+            name: Clase 11 - Condicionales | DOC
+            href: "https://docs.google.com/document/d/1PAdAAl88AlHfmO2nPjgcHK_QZD29qj5sfRC5e8dr4YI/edit?usp=sharing"
+            date: 30/06
+          - id: "12"
+            name: Clase 12 - Condicionales | DOC
+            href: "https://docs.google.com/document/d/1O_X6eRvTYi4uI1MlaqNwxbPMTP-NRq0VQ28_66IIqMg/edit?usp=sharing"
+            date: 07/07
+          - name: Recursos Extras
+          - id: ExcelRoadmap
+            name: Excel Roadmap - Orden para aprender todo de Excel
+            href: "https://excelroadmap.com/"
+            date: 24/05
+          - id: PyRoadmap
+            name: Python Roadmap - Pasos para aprender todo de Python
+            href: "https://roadmap.sh/python"
+            date: 24/05
+          - id: roadmap
+            name: Roadmap.sh - Guías para aprender sobre Programación
+            href: "https://roadmap.sh/"
+            date: 24/05
+  - id: "2025"
+    name: IJRJ - Informática - 2025
+    courses[4]:
+      - id: 1ro
+        name: 1ro - Computación
+        links[8]:
+          - name: Clase 1
+          - id: "1"
+            name: Firmware - Material de Estudio | DOC
+            href: "https://docs.google.com/document/d/1P5AXu7HOL4yBRDCwqUuIug3ZJSbmHDF1/edit#heading=h.bwaw2kd0pxzo"
+            date: 16/10
+          - id: 1-1
+            name: Firmware - Material de Estudio | PDF
+            href: /Secundaria_JRJ/1ro-comp/clase1.pdf
+            date: 16/10
+          - id: 1-2
+            name: Hardware & Software - Aplastatopos
+            href: "https://wordwall.net/resource/14511128/hardware-y-software"
+            date: 16/10
+          - id: 1-3
+            name: Hardware & Software - Ordenar por Grupo
+            href: "https://wordwall.net/resource/6628770/hardware-y-software"
+            date: 16/10
+          - name: Clase 2
+          - id: "2"
+            name: Firmware vs Software | DOC
+            href: "https://docs.google.com/document/d/1iERPKJbx_6wuF42s-u4aZMN_qkR-mAYRIY-DIBFlB9s/edit?usp=sharing"
+            date: 23/10
+          - id: 2-1
+            name: Firmware vs Software | PDF
+            href: /Secundaria_JRJ/1ro-comp/clase2.pdf
+            date: 23/10
+      - id: 3ro
+        name: 3ro - Informática
+        links[11]:
+          - name: Clase 1
+          - id: "1"
+            name: Ejercicios de Excel | DOC
+            href: "https://docs.google.com/document/d/1mQHVrVNQAC1A0I8r9M1vA2D3Yz2Eg0ZT/edit#heading=h.z2qd0w7qgn6l"
+            date: 15/10
+          - id: 1-1
+            name: Ejercicios de Excel | PDF
+            href: /Secundaria_JRJ/3ro-info/clase1.pdf
+            date: 15/10
+          - name: Clase 2
+          - id: "2"
+            name: Ejercicios de Excel | DOC
+            href: "https://docs.google.com/document/d/1Ew1VdikD0F9DeHv0e8nkA4cg2NKlIek5/edit?usp=sharing&ouid=111776696898448369051&rtpof=true&sd=true"
+            date: 22/10
+          - id: 2-1
+            name: Ejercicios de Excel | PDF
+            href: /Secundaria_JRJ/3ro-info/clase2.pdf
+            date: 22/10
+          - id: ""
+            name: Lista de Alumnos | Hoja de Calculo
+            href: "https://docs.google.com/spreadsheets/d/1YcsSwMKX0zECi-u4zgkLZJZli6dWTo2xgweXn9xOOvY/edit?usp=sharing"
+            date: 22/10
+          - name: Clase 3
+          - id: "3"
+            name: Ejercicios de Excel | DOC
+            href: "https://docs.google.com/document/d/1RO7TDHfrSinqNFWCzCeSXuhbIJYBU0XorMQmopzWmZo/edit?usp=sharing"
+            date: 29/10
+          - id: 3-1
+            name: Ejercicios de Excel | PDF
+            href: /Secundaria_JRJ/3ro-info/clase3.pdf
+            date: 29/10
+          - id: 3-2
+            name: Plantilla Factura Tipo C | Hoja de Calculo
+            href: "https://docs.google.com/spreadsheets/d/11xnFHkN9v98iq9bes576R3sKPoij5ntu/edit?usp=sharing&ouid=111776696898448369051&rtpof=true&sd=true"
+            date: 29/10
+      - id: 4to
+        name: 4to - NTICX
+        links[9]:
+          - name: Clase 1
+          - id: "1"
+            name: 1ra Parte - Material de Estudio | PDF
+            href: /Secundaria_JRJ/4to-nticx/1ra-parte.pdf
+            date: 15/10
+          - id: 1-1
+            name: 1ra Parte - Crucigrama
+            href: "https://es.educaplay.com/recursos-educativos/26064143-nticx_4to_ano.html"
+            date: 15/10
+          - id: 1-2
+            name: 1ra Parte - Sopa de Letras
+            href: "https://www.educaplay.com/learning-resources/26063413-nticx_4to_ano.html"
+            date: 15/10
+          - name: Clase 2
+          - id: "2"
+            name: 2da Parte - Material de Estudio | PDF
+            href: /Secundaria_JRJ/4to-nticx/2da-parte.pdf
+            date: 22/10
+          - id: 2-1
+            name: 2da Parte - Unir con Flechas
+            href: "https://es.educaplay.com/recursos-educativos/26063818-nticx_4to_ano.html"
+            date: 22/10
+          - name: Clase 3
+          - id: "3"
+            name: Cuestionario | PDF
+            href: /Secundaria_JRJ/4to-nticx/cuestionario.pdf
+            date: 29/10
+      - id: 6to
+        name: 6to - Informática
+        links[8]:
+          - name: Clase 1
+          - id: "1"
+            name: IPC - Ejercicios | DOC
+            href: "https://docs.google.com/document/d/1aSSy-2VCZ9ajBYLis8i2Dnu_N26Vnlnw/edit?usp=sharing&ouid=111776696898448369051&rtpof=true&sd=true"
+            date: 15/10
+          - id: 1-1
+            name: IPC - Ejercicios | PDF
+            href: /Secundaria_JRJ/6to-info/clase1.pdf
+            date: 15/10
+          - name: Clase 2
+          - id: "2"
+            name: IPC - Ejercicios | DOC
+            href: "https://docs.google.com/document/d/1JkDas10YS45bHPHjuoFbSA_VUz0s77PCd-DW6yLB0aM/edit?usp=sharing"
+            date: 22/10
+          - id: 2-1
+            name: IPC - Ejercicios | PDF
+            href: /Secundaria_JRJ/6to-info/clase2.pdf
+            date: 22/10
+          - name: Extras
+          - id: extras
+            name: Aprende a Programar | Scratch
+            href: "https://scratch.mit.edu/projects/editor/?tutorial=getStarted"
+            date: 29/10

@@ -60,14 +60,12 @@ export default function LinksGroup({
         onClick={() => setListOpened(!isListOpened)}
       >
         <span>{course.name}</span>
-        {course.desc ? (
-          course.desc.includes("\n") ? (
+        {course.desc && (
+          course.desc.includes("<br>") || course.desc.includes("\n") ? (
             <CondensedMessage msg={course.desc} />
           ) : (
             <span className="text-surface-1 text-sm">{course.desc}</span>
           )
-        ) : (
-          ""
         )}
       </button>
 

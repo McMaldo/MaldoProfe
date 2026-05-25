@@ -10,6 +10,9 @@ import FaIcon from "./FaIcon";
 const CondensedMessage: FC<{
   msg: string;
 }> = ({ msg }) => {
+  let content: string[] | null = null;
+  if (msg.includes("\n")) content = msg.split("\n");
+  if (msg.includes("<br>")) content = msg.split("<br>");
   return (
     <div className="group z-9 relative px-2 rounded-sm bg-base h-full">
       <FaIcon name="ellipsis" />
@@ -17,10 +20,10 @@ const CondensedMessage: FC<{
         id="msg"
         className="z-10 absolute p-2 top-[calc(100%+.25rem)] right-0 bg-crust border border-base rounded-md text-nowrap text-surface-1 hidden group-hover:flex group-hover:flex-col group-hover:gap-1"
       >
-        {msg.length ? (
-          msg
-            .split("\n")
-            .map((row: string, index: number) => <span key={index}>{row}</span>)
+        {content ? (
+          content.map((row: string, index: number) => (
+            <span key={index}>{row}</span>
+          ))
         ) : (
           <span>{msg}</span>
         )}

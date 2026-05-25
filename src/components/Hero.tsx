@@ -27,7 +27,7 @@ export default function Hero() {
           alt=""
         />
       </div>
-      <div className="absolute top-0 left-0 size-full flex flex-col gap-4 items-center justify-center lg:items-start lg:justify-end p-4">
+      <div className="absolute top-0 left-0 size-full flex flex-col gap-4 items-center justify-center sm:items-start sm:justify-end p-4">
         <div className="flex gap-4 flex-wrap justify-center">
           {["Computación", "Informática", "NTICX"].map((tag, tagIndex) => (
             <span
