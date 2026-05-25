@@ -7,7 +7,7 @@ import { useWindowSize } from "../hook/useWindowSize";
 const themes: { value: Theme; label: string; icon: string }[] = [
   { value: "system", label: "Sistema", icon: "circle-half-stroke" },
   { value: "latte", label: "Latte", icon: "sun" },
-  { value: "mocha", label: "mocha", icon: "moon" },
+  { value: "mocha", label: "Mocha", icon: "moon" },
 ];
 
 const ThemeSelector: FC = () => {
@@ -37,7 +37,7 @@ const ThemeSelector: FC = () => {
     >
       {/* Botón actual */}
       <button
-        className="w-fit flex items-center gap-2 p-2 rounded-lg bg-base border border-transparent hover:border-surface-0 transition-all text-sm text-subtext-1"
+        className="w-fit flex items-center gap-1 p-2 rounded-lg bg-base border border-transparent hover:border-surface-0 transition-all text-sm text-subtext-1"
         aria-label="Cambiar tema"
       >
         <FaIcon name={current.icon} />
@@ -59,7 +59,7 @@ const ThemeSelector: FC = () => {
               setTheme(value);
               setOpen(false);
             }}
-            className={`flex items-center gap-2 p-2 rounded-lg text-sm transition-all text-start w-full ${
+            className={`flex items-center gap-1 p-2 rounded-lg text-sm transition-all text-start w-full ${
               theme === value
                 ? "bg-base text-text"
                 : "text-subtext-1 hover:bg-base hover:text-text"

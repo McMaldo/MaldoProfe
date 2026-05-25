@@ -4,33 +4,18 @@
  *
  * @version 1.0.0
  */
-import { FC, useState } from "react";
+import { FC } from "react";
 import FaIcon from "./FaIcon";
 
 const CondensedMessage: FC<{
   msg: string;
-  onHoverChange?: (hovered: boolean) => void;
-}> = ({ msg, onHoverChange }) => {
-  const [isHovered, setHovered] = useState(false);
-  const handleEnter = () => {
-    setHovered(true);
-    onHoverChange?.(true);
-  };
-  const handleLeave = () => {
-    setHovered(false);
-    onHoverChange?.(false);
-  };
-
+}> = ({ msg }) => {
   return (
-    <div
-      onMouseEnter={handleEnter}
-      onMouseLeave={handleLeave}
-      className="z-9 relative px-2 rounded-sm bg-base h-full"
-    >
+    <div className="group z-9 relative px-2 rounded-sm bg-base h-full">
       <FaIcon name="ellipsis" />
       <div
         id="msg"
-        className={`z-10 absolute p-2 top-[calc(100%+.25rem)] right-0 bg-crust border border-base rounded-md text-nowrap text-surface-1 ${isHovered ? "flex flex-col gap-1" : "hidden"}`}
+        className="z-10 absolute p-2 top-[calc(100%+.25rem)] right-0 bg-crust border border-base rounded-md text-nowrap text-surface-1 hidden group-hover:flex group-hover:flex-col group-hover:gap-1"
       >
         {msg.length ? (
           msg

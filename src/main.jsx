@@ -5,7 +5,8 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import links from "./links.json";
 import FindLink from "./components/FindLink.jsx";
-const App = lazy(() => import("./components/App.jsx"));
+const App = lazy(() => import("./components/App"));
+const CoursePopup = lazy(() => import("./components/CoursePopup"));
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -17,7 +18,16 @@ createRoot(document.getElementById("root")).render(
             <App sections={links} />
           </Suspense>
         }
-      ></Route>
+      >
+        <Route
+          path="/:section/:course/"
+          element={
+            <Suspense fallback={<></>}>
+              <CoursePopup />
+            </Suspense>
+          }
+        ></Route>
+      </Route>
       <Route
         path="/:sectionSearch/:courseSearch/:classSearch"
         element={<FindLink linkList={links} />}
