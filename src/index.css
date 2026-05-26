@@ -3,7 +3,7 @@
 :root {
     font-family: ubuntu;
 }
-
+@variant dark (&:where([data-theme="dark"], [data-theme="dark"] *, [data-theme="mocha"], [data-theme="mocha"] *));
 @theme {
     /* dark */
     --color-text: #cdd6f4;

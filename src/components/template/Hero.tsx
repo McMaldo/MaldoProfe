@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import FaIcon from "./FaIcon";
-import { useRandomNumber } from "../hook/useRandomNumber";
+import FaIcon from "../atom/FaIcon";
+import { useRandomNumber } from "../../hook/useRandomNumber";
 
 export default function Hero() {
   const [ready, setReady] = useState(false);

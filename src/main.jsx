@@ -4,9 +4,10 @@ import { createRoot } from "react-dom/client";
 
 import "./index.css";
 import links from "./data/links.json";
-import FindLink from "./components/FindLink.jsx";
-const App = lazy(() => import("./components/App"));
-const CoursePopup = lazy(() => import("./components/CoursePopup"));
+import FindLink from "./components/page/FindLink";
+const MainPage = lazy(() => import("./components/page/MainPage"));
+const CoursePopup = lazy(() => import("./components/template/CoursePopup"));
+import ErrorPage from "./components/page/Error";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -15,7 +16,7 @@ createRoot(document.getElementById("root")).render(
         path=""
         element={
           <Suspense fallback={<></>}>
-            <App sections={links} />
+            <MainPage sections={links} />
           </Suspense>
         }
       >
@@ -26,12 +27,13 @@ createRoot(document.getElementById("root")).render(
               <CoursePopup />
             </Suspense>
           }
-        ></Route>
+        />
       </Route>
       <Route
         path="/:sectionSearch/:courseSearch/:classSearch"
         element={<FindLink linkList={links} />}
-      ></Route>
+      />
+      <Route path="*" element={<ErrorPage />} />
     </Routes>
   </BrowserRouter>,
 );

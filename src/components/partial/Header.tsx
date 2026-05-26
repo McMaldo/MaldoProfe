@@ -1,6 +1,6 @@
 import { FC } from "react";
-import Search from "./Search.tsx";
-import ThemeSelector from "./ThemeSelector.tsx";
+import Search from "../atom/Search.tsx";
+import ThemeSelector from "../atom/ThemeSelector.tsx";
 
 const Header: FC<{
   query: string;

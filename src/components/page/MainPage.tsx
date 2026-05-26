@@ -1,13 +1,14 @@
 import { FC } from "react";
 import { Outlet } from "react-router-dom";
-import LinksGroup from "./LinksGroup";
-import Hero from "./Hero";
-import Header from "./Header";
-import { useSearch } from "../hook/useSearch";
-import { SectionsContext } from "../context/SectionsContext";
-import type { Section } from "../types/Links.ts";
+import LinksGroup from "../template/LinksGroup.tsx";
+import Hero from "../template/Hero.tsx";
+import Header from "../partial/Header.tsx";
+import { useSearch } from "../../hook/useSearch.ts";
+import { SectionsContext } from "../../context/SectionsContext.tsx";
+import type { Section } from "../../types/Links.ts";
+import Footer from "../partial/Footer.tsx";
 
-const App: FC<{ sections: Section[] }> = ({ sections }) => {
+const MainPage: FC<{ sections: Section[] }> = ({ sections }) => {
   const { query, setQuery, filtered: sectionsFiltered } = useSearch(sections);
 
   return (
@@ -32,11 +33,11 @@ const App: FC<{ sections: Section[] }> = ({ sections }) => {
           </div>
         ))}
       </main>
-
+      <Footer />
       <SectionsContext.Provider value={sections}>
         <Outlet />
       </SectionsContext.Provider>
     </>
   );
 };
-export default App;
+export default MainPage;

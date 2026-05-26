@@ -1,8 +1,8 @@
 import { type FC, useEffect, useRef, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import type { Link, Divider } from "../types/Links";
-import { useSections } from "../context/SectionsContext";
-import LinkItem from "./LinkItem";
+import type { Link, Divider } from "../../types/Links";
+import { useSections } from "../../context/SectionsContext";
+import LinkItem from "../atom/LinkItem";
 
 const isLink = (item: Link | Divider): item is Link => "href" in item;
 

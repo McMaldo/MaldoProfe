@@ -11,7 +11,7 @@ export interface Course {
   id: string;
   name: string;
   desc: string;
-  links: Link[] | Divider[];
+  links: (Link | Divider)[];
 }
 export interface Section {
   id: string; // Años, ej: 2025, 2026

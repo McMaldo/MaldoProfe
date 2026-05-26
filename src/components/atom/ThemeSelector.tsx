@@ -1,8 +1,8 @@
 import { FC, useState, useRef, useEffect } from "react";
-import useTheme from "../hook/useTheme";
+import useTheme from "../../hook/useTheme";
 import FaIcon from "./FaIcon";
-import { Theme } from "../types/Theme";
-import { useWindowSize } from "../hook/useWindowSize";
+import { Theme } from "../../types/Theme";
+import { useWindowSize } from "../../hook/useWindowSize";
 
 const themes: { value: Theme; label: string; icon: string }[] = [
   { value: "system", label: "Sistema", icon: "circle-half-stroke" },

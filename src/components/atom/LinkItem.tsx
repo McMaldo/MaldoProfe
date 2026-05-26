@@ -5,7 +5,7 @@ import type {
   RefObject,
   SetStateAction,
 } from "react";
-import type { Link } from "../types/Links";
+import type { Link } from "../../types/Links";
 
 const parseDate = (date: string): Date => {
   const [day, month] = date.split("/").map(Number);

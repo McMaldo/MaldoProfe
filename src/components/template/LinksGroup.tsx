@@ -1,8 +1,8 @@
 import { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import CondensedMessage from "./CondensedMessage";
-import LinkItem from "./LinkItem";
-import type { Course, Link as LinkType, Divider } from "../types/Links";
+import CondensedMessage from "../atom/CondensedMessage";
+import LinkItem from "../atom/LinkItem";
+import type { Course, Link as LinkType, Divider } from "../../types/Links";
 
 const isLink = (item: LinkType | Divider): item is LinkType => "href" in item;
 
@@ -60,13 +60,12 @@ export default function LinksGroup({
         onClick={() => setListOpened(!isListOpened)}
       >
         <span>{course.name}</span>
-        {course.desc && (
-          course.desc.includes("<br>") || course.desc.includes("\n") ? (
+        {course.desc &&
+          (course.desc.includes("<br>") || course.desc.includes("\n") ? (
             <CondensedMessage msg={course.desc} />
           ) : (
             <span className="text-surface-1 text-sm">{course.desc}</span>
-          )
-        )}
+          ))}
       </button>
 
       <div
