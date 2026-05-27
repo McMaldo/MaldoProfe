@@ -322,6 +322,51 @@
     ]
   },
   {
+    "id": "2026-Suplencia",
+    "name": "IJRJ - Informática (Suplencia) - 2026",
+    "courses":[
+      {
+        "id": "3ro",
+        "name": "3ro - Informática",
+        "desc": "Jue 10:00 - 12:00hs",
+        "links": [
+          {
+            "id": "1",
+            "name": "Clase 1 - Tablas en Documentos (parte 3) | DOC",
+            "href": "https://docs.google.com/document/d/182qmsCi8pWhrngFbflbxGNyz6fRMgjj9/edit?usp=sharing&ouid=106861751021883627656&rtpof=true&sd=true",
+            "date": "27/05"
+          }
+        ]
+      },
+      {
+        "id": "4to",
+        "name": "4to - NTICX",
+        "desc": "Mie 07:40 - 09:40hs",
+        "links": [
+          {
+            "id": "1",
+            "name": "Clase 1 - El Buen Uso de las Redes Sociales | DOC",
+            "href": "https://docs.google.com/document/d/1XdY2_bu3sF8ynYBJiw0RKQ6DW1M5Vw1z/edit?usp=sharing&ouid=106861751021883627656&rtpof=true&sd=true",
+            "date": "27/05"
+          }
+        ]
+      },
+      {
+        "id": "6to",
+        "name": "6to - Informática",
+        "desc": "Jue 12:00 - 13:00hs",
+        "links": [
+          {
+            "id": "1",
+            "name": "Clase 1 - Repaso de Excel | DOC",
+            "href": "https://docs.google.com/document/d/1r2VPMcoM2pjq8fH7jC3Qz5mAxswxJCxn/edit?usp=sharing&ouid=106861751021883627656&rtpof=true&sd=true",
+            "date": "27/05"
+          }
+        ]
+      }
+    ]
+  }
+  {
     "id": "2025",
     "name": "IJRJ - Informática - 2025",
     "courses": [
