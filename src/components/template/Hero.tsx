@@ -19,12 +19,12 @@ export default function Hero() {
         <img
           className="opacity-hero-img-dark absolute size-full object-cover object-center"
           src={`/img/hero-dark-${heroImgNumber}.gif`}
-          alt=""
+          alt="hero image dark"
         />
         <img
           className="opacity-hero-img-light absolute size-full object-cover object-center"
           src={`/img/hero-light-${heroImgNumber}.gif`}
-          alt=""
+          alt="hero image light"
         />
       </div>
       <div className="absolute top-0 left-0 size-full flex flex-col gap-4 items-center justify-center sm:items-start sm:justify-end p-4">
