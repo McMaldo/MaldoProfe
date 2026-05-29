@@ -18,9 +18,9 @@ const MainPage: FC<{ sections: Section[] }> = ({ sections }) => {
         <Hero />
         {sectionsFiltered.map((section: Section, index: number) => (
           <div key={index} className="w-full flex flex-col gap-4">
-            <h3 className="pt-1 text-surface-2 w-full border-b border-mantle">
+            <h2 className="pt-1 text-surface-2 w-full border-b border-mantle text-2xl">
               {section.name}
-            </h3>
+            </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
               {section.courses.map((course, index) => (
                 <LinksGroup

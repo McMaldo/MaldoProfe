@@ -1,6 +1,6 @@
 [
   {
-    "id": "2026",
+    "id": "2026-Taller",
     "name": "IJRJ - Taller de Informática - 2026",
     "courses": [
       {
@@ -322,9 +322,58 @@
     ]
   },
   {
-    "id": "2026-Suplencia",
-    "name": "IJRJ - Informática (Suplencia) - 2026",
+    "id": "2026",
+    "name": "IJRJ - Informática - 2026",
     "courses":[
+      {
+        "id": "1ro",
+        "name": "1ro B - Computación",
+        "desc": "Jue 12:00 - 13:00hs",
+        "links": [
+          {
+            "id": "1",
+            "name": "Clase 1 - Introducción a Hardware | DOC",
+            "href": "https://docs.google.com/document/d/1aOH4Ge0feW8SKrVi5voanhnbDq5yOxCpk3P19m8FGbQ/edit?usp=sharing",
+            "date": "09/04"
+          },
+          {
+            "id": "3",
+            "name": "Clase 3 - Introducción a Hardware | DOC",
+            "href": "https://docs.google.com/document/d/1yAeLfJn8utppQrRCECxep55hqsVZOaI4KrEZLqFgJ7M/edit?usp=sharing",
+            "date": "23/04"
+          },
+          {
+            "id": "4",
+            "name": "Clase 4 - Mundos de la Informática | DOC",
+            "href": "https://docs.google.com/document/d/11L4lT7X1DpAiUoZMny2AszVn6FJQuM4R1IFMX_o9PnM/edit?usp=sharing",
+            "date": "30/04"
+          },
+          {
+            "id": "5",
+            "name": "Clase 5 - Partes de una computadora | DOC",
+            "href": "https://docs.google.com/document/d/1-674_qypyFJg6XTHQX0VB_V0zkhlUqpHSuuYRMnzPpQ/edit?usp=sharing",
+            "date": "07/05"
+          },
+          {
+            "id": "6",
+            "name": "Clase 6 - Partes de una computadora -  2 | DOC",
+            "href": "https://docs.google.com/document/d/1_Y_AXl01_-61HofOWCoQQVKF_vU4jBYt2Vs6QbY9R-o/edit?usp=sharing",
+            "date": "14/05"
+          },
+          {
+            "id": "7",
+            "name": "Clase 7 - Almacenamiento en una Computadora | DOC",
+            "href": "https://docs.google.com/document/d/1NpQ_tl4OQ7gsOW_jUB6vPLskLaru5jafNlZWhBlUobM/edit?usp=sharing",
+            "date": "21/05"
+          },
+          {
+            "id": "8",
+            "name": "Clase 8 - Almacenamiento en una Computadora - 2 | DOC",
+            "href": "https://docs.google.com/document/d/1NpQ_tl4OQ7gsOW_jUB6vPLskLaru5jafNlZWhBlUobM/edit?usp=sharing",
+            "date": "28/05"
+          }
+        ]
+      },
       {
         "id": "3ro",
         "name": "3ro - Informática",
@@ -332,7 +381,7 @@
         "links": [
           {
             "id": "1",
-            "name": "Clase 1 - Tablas en Documentos (parte 3) | DOC",
+            "name": "Clase 21 - Ejercicios de Excel | DOC",
             "href": "https://docs.google.com/document/d/182qmsCi8pWhrngFbflbxGNyz6fRMgjj9/edit?usp=sharing&ouid=106861751021883627656&rtpof=true&sd=true",
             "date": "27/05"
           }
@@ -345,7 +394,7 @@
         "links": [
           {
             "id": "1",
-            "name": "Clase 1 - El Buen Uso de las Redes Sociales | DOC",
+            "name": "Clase 21 - El Buen Uso de las Redes Sociales | DOC",
             "href": "https://docs.google.com/document/d/1XdY2_bu3sF8ynYBJiw0RKQ6DW1M5Vw1z/edit?usp=sharing&ouid=106861751021883627656&rtpof=true&sd=true",
             "date": "27/05"
           }
@@ -358,7 +407,7 @@
         "links": [
           {
             "id": "1",
-            "name": "Clase 1 - Repaso de Excel | DOC",
+            "name": "Clase 21 - Ofimática en la vida Cotidiana | DOC",
             "href": "https://docs.google.com/document/d/1r2VPMcoM2pjq8fH7jC3Qz5mAxswxJCxn/edit?usp=sharing&ouid=106861751021883627656&rtpof=true&sd=true",
             "date": "27/05"
           }
