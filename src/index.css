@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-    font-family: ubuntu;
+    font-family: "Ubuntu Mono", monospace;
 }
 @variant dark (&:where([data-theme="dark"], [data-theme="dark"] *, [data-theme="mocha"], [data-theme="mocha"] *));
 @theme {
