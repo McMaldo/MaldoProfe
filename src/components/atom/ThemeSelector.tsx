@@ -6,8 +6,19 @@ import { useWindowSize } from "../../hook/useWindowSize";
 
 const themes: { value: Theme; label: string; icon: string }[] = [
   { value: "system", label: "Sistema", icon: "circle-half-stroke" },
+
+  // Catppuccin
   { value: "latte", label: "Latte", icon: "sun" },
   { value: "mocha", label: "Mocha", icon: "moon" },
+
+  // Otros temas
+  { value: "tokyo-night", label: "Tokyo Night", icon: "moon" },
+  { value: "rose-pine-moon", label: "Rose Pine", icon: "moon" },
+  { value: "gruvbox-material", label: "Gruvbox", icon: "moon" },
+  { value: "everforest", label: "Everforest", icon: "moon" },
+  { value: "nord", label: "Nord", icon: "moon" },
+  { value: "dracula", label: "Dracula", icon: "moon" },
+  { value: "one-dark-pro", label: "One Dark", icon: "moon" },
 ];
 
 const ThemeSelector: FC = () => {
@@ -59,7 +70,7 @@ const ThemeSelector: FC = () => {
               setTheme(value);
               setOpen(false);
             }}
-            className={`flex items-center gap-1 p-2 rounded-lg text-sm transition-all text-start w-full ${
+            className={`flex items-center gap-1 p-2 rounded-lg text-sm transition-all text-start w-full text-nowrap ${
               theme === value
                 ? "bg-base text-text"
                 : "text-subtext-1 hover:bg-base hover:text-text"

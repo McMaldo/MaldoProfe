@@ -3,9 +3,15 @@
 :root {
     font-family: "Ubuntu Mono", monospace;
 }
-@variant dark (&:where([data-theme="dark"], [data-theme="dark"] *, [data-theme="mocha"], [data-theme="mocha"] *));
+@variant dark (&:where(
+    [data-color-scheme="dark"],
+    [data-color-scheme="dark"] *
+));
 @theme {
-    /* dark */
+    /* mocha */
+    --color-primary: #89b4fa;
+    --color-secondary: #cba6f7;
+
     --color-text: #cdd6f4;
     --color-subtext-1: #bac2de;
     --color-subtext-0: #a6adc8;
@@ -21,8 +27,11 @@
     --opacity-hero-img-dark: 1;
     --opacity-hero-img-light: 0;
 }
+[data-theme="light"],
 [data-theme="latte"] {
-    /* light */
+    --color-primary: #1e66f5;
+    --color-secondary: #8839ef;
+
     --color-text: #4c4f69;
     --color-subtext-1: #5c5f77;
     --color-subtext-0: #6c6f85;
@@ -37,6 +46,139 @@
 
     --opacity-hero-img-dark: 0;
     --opacity-hero-img-light: 1;
+}
+[data-theme="tokyo-night"] {
+    --color-primary: #7aa2f7;
+    --color-secondary: #bb9af7;
+
+    --color-text: #c0caf5;
+    --color-subtext-1: #a9b1d6;
+    --color-subtext-0: #9aa5ce;
+
+    --color-surface-2: #565f89;
+    --color-surface-1: #414868;
+    --color-surface-0: #2f3549;
+
+    --color-base: #1a1b26;
+    --color-mantle: #16161e;
+    --color-crust: #11111a;
+
+    --opacity-hero-img-dark: 1;
+    --opacity-hero-img-light: 0;
+}
+[data-theme="rose-pine-moon"] {
+    --color-primary: #c4a7e7;
+    --color-secondary: #ebbcba;
+
+    --color-text: #e0def4;
+    --color-subtext-1: #908caa;
+    --color-subtext-0: #6e6a86;
+
+    --color-surface-2: #6e6a86;
+    --color-surface-1: #403d52;
+    --color-surface-0: #2a273f;
+
+    --color-base: #232136;
+    --color-mantle: #1f1d2e;
+    --color-crust: #191724;
+
+    --opacity-hero-img-dark: 1;
+    --opacity-hero-img-light: 0;
+}
+[data-theme="gruvbox-material"] {
+    --color-primary: #89b482;
+    --color-secondary: #e78a4e;
+
+    --color-text: #d4be98;
+    --color-subtext-1: #bdae93;
+    --color-subtext-0: #a89984;
+
+    --color-surface-2: #7c6f64;
+    --color-surface-1: #504945;
+    --color-surface-0: #3c3836;
+
+    --color-base: #282828;
+    --color-mantle: #232323;
+    --color-crust: #1d2021;
+
+    --opacity-hero-img-dark: 1;
+    --opacity-hero-img-light: 0;
+}
+[data-theme="everforest"] {
+    --color-primary: #a7c080;
+    --color-secondary: #7fbbb3;
+
+    --color-text: #d3c6aa;
+    --color-subtext-1: #b9c0ab;
+    --color-subtext-0: #a7c080;
+
+    --color-surface-2: #859289;
+    --color-surface-1: #4f5b58;
+    --color-surface-0: #3d484d;
+
+    --color-base: #2d353b;
+    --color-mantle: #272e33;
+    --color-crust: #232a2e;
+
+    --opacity-hero-img-dark: 1;
+    --opacity-hero-img-light: 0;
+}
+[data-theme="nord"] {
+    --color-primary: #88c0d0;
+    --color-secondary: #b48ead;
+
+    --color-text: #eceff4;
+    --color-subtext-1: #e5e9f0;
+    --color-subtext-0: #d8dee9;
+
+    --color-surface-2: #4c566a;
+    --color-surface-1: #434c5e;
+    --color-surface-0: #3b4252;
+
+    --color-base: #2e3440;
+    --color-mantle: #2b303b;
+    --color-crust: #242933;
+
+    --opacity-hero-img-dark: 1;
+    --opacity-hero-img-light: 0;
+}
+[data-theme="dracula"] {
+    --color-primary: #bd93f9;
+    --color-secondary: #ff79c6;
+
+    --color-text: #f8f8f2;
+    --color-subtext-1: #d7dae0;
+    --color-subtext-0: #b8bcc8;
+
+    --color-surface-2: #6272a4;
+    --color-surface-1: #44475a;
+    --color-surface-0: #343746;
+
+    --color-base: #282a36;
+    --color-mantle: #21222c;
+    --color-crust: #191a21;
+
+    --opacity-hero-img-dark: 1;
+    --opacity-hero-img-light: 0;
+}
+[data-theme="one-dark-pro"] {
+    --color-primary: #61afef;
+    --color-secondary: #56b6c2;
+
+    --color-text: #abb2bf;
+    --color-subtext-1: #9da5b4;
+    --color-subtext-0: #828997;
+
+    --color-surface-2: #5c6370;
+    --color-surface-1: #3e4451;
+    --color-surface-0: #31353f;
+
+    --color-base: #282c34;
+    --color-mantle: #21252b;
+    --color-crust: #1c1f24;
+
+    --opacity-hero-img-dark: 1;
+    --opacity-hero-img-light: 0;
 }
 
 .fa-icon {
