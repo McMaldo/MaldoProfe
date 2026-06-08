@@ -6,6 +6,7 @@ import type {
   SetStateAction,
 } from "react";
 import type { Link } from "../../types/Links";
+import LinkIcon from "./LinkIcon";
 
 const parseDate = (date: string): Date => {
   const [day, month] = date.split("/").map(Number);
@@ -41,14 +42,6 @@ const LinkItem: FC<{
       setBtnHover({ t: btn.top - position, w: btn.width, h: btn.height });
   };
 
-  const icon = link.href.includes("docs.google.com/document")
-    ? "/icon/google_docs.ico"
-    : link.href.includes("docs.google.com/spreadsheets")
-      ? "/icon/google_spreadsheets.ico"
-      : link.href.includes(".pdf")
-        ? "/icon/pdf_logo.png"
-        : `https://www.google.com/s2/favicons?domain_url=${link.href}`;
-
   return (
     <a
       href={isFuture ? undefined : link.href}
@@ -73,7 +66,7 @@ const LinkItem: FC<{
           isToday ? "text-text font-medium" : "text-subtext-1"
         }`}
       >
-        <img className="size-4" src={icon} alt="" />
+        <LinkIcon href={link.href} />
         <span>{link.name.split("|")[0]}</span>
       </div>
 
