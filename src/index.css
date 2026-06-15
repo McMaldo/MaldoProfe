@@ -47,6 +47,25 @@
     --opacity-hero-img-dark: 0;
     --opacity-hero-img-light: 1;
 }
+[data-theme="pinkiepie"] {
+    --color-primary: #fcd2a1;
+    --color-secondary: #2ac5ff;
+
+    --color-text: #1e1e2e;
+    --color-subtext-1: #313244;
+    --color-subtext-0: #5a5c75;
+
+    --color-surface-2: #828695;
+    --color-surface-1: #f68aff;
+    --color-surface-0: #f5a8c7;
+
+    --color-base: #ffc9db;
+    --color-mantle: #fbc1d4;
+    --color-crust: #fed9ff;
+
+    --opacity-hero-img-dark: 0;
+    --opacity-hero-img-light: 1;
+}
 [data-theme="tokyo-night"] {
     --color-primary: #7aa2f7;
     --color-secondary: #bb9af7;
@@ -84,6 +103,25 @@
 
     --opacity-hero-img-dark: 1;
     --opacity-hero-img-light: 0;
+}
+[data-theme="gruvbox-material-light"] {
+    --color-primary: #689d6a;
+    --color-secondary: #af3a03;
+
+    --color-text: #282828;
+    --color-subtext-1: #3c3836;
+    --color-subtext-0: #504945;
+
+    --color-surface-2: #bdae93;
+    --color-surface-1: #d5c4a1;
+    --color-surface-0: #ebdbb2;
+
+    --color-base: #fbf1c7;
+    --color-mantle: #f4e8c1;
+    --color-crust: #f2e5bc;
+
+    --opacity-hero-img-dark: 0;
+    --opacity-hero-img-light: 1;
 }
 [data-theme="gruvbox-material"] {
     --color-primary: #89b482;

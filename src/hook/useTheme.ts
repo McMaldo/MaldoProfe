@@ -1,19 +1,10 @@
 import { useEffect, useState } from "react";
-import { Theme } from "../types/Theme";
+import { darkThemesArray, type Theme } from "../types/Theme";
 
 const getSystemTheme = (): "light" | "dark" =>
   window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 
-const DARK_THEMES = new Set([
-  "mocha",
-  "tokyo-night",
-  "rose-pine-moon",
-  "gruvbox-material",
-  "everforest",
-  "nord",
-  "dracula",
-  "one-dark-pro",
-]);
+const DARK_THEMES = new Set(darkThemesArray);
 
 const getColorScheme = (theme: Theme): "light" | "dark" => {
   if (theme === "system") return getSystemTheme();

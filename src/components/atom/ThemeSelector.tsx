@@ -1,25 +1,8 @@
 import { FC, useState, useRef, useEffect } from "react";
 import useTheme from "../../hook/useTheme";
 import FaIcon from "./FaIcon";
-import { Theme } from "../../types/Theme";
+import { themesStruct } from "../../types/Theme";
 import { useWindowSize } from "../../hook/useWindowSize";
-
-const themes: { value: Theme; label: string; icon: string }[] = [
-  { value: "system", label: "Sistema", icon: "circle-half-stroke" },
-
-  // Catppuccin
-  { value: "latte", label: "Latte", icon: "sun" },
-  { value: "mocha", label: "Mocha", icon: "moon" },
-
-  // Otros temas
-  { value: "tokyo-night", label: "Tokyo Night", icon: "moon" },
-  { value: "rose-pine-moon", label: "Rose Pine", icon: "moon" },
-  { value: "gruvbox-material", label: "Gruvbox", icon: "moon" },
-  { value: "everforest", label: "Everforest", icon: "moon" },
-  { value: "nord", label: "Nord", icon: "moon" },
-  { value: "dracula", label: "Dracula", icon: "moon" },
-  { value: "one-dark-pro", label: "One Dark", icon: "moon" },
-];
 
 const ThemeSelector: FC = () => {
   const { theme, setTheme } = useTheme();
@@ -27,7 +10,8 @@ const ThemeSelector: FC = () => {
   const { w: windowWidht } = useWindowSize();
   const ref = useRef<HTMLDivElement>(null);
 
-  const current = themes.find((t) => t.value === theme) ?? themes[0];
+  const current =
+    themesStruct.find((t) => t.value === theme) ?? themesStruct[0];
 
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
@@ -63,7 +47,7 @@ const ThemeSelector: FC = () => {
             : "opacity-0 -translate-y-1 pointer-events-none"
         }`}
       >
-        {themes.map(({ value, label, icon }) => (
+        {themesStruct.map(({ value, label, icon }) => (
           <button
             key={value}
             onClick={() => {

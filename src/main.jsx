@@ -9,6 +9,11 @@ const MainPage = lazy(() => import("./components/page/MainPage"));
 const CoursePopup = lazy(() => import("./components/template/CoursePopup"));
 import ErrorPage from "./components/page/Error";
 
+console.log(
+  "\n%c¡Bienvenidos a la MaldoProfeApp!\n\n%cEsta es la consola de desarrollo web, todo lo que modifiques aquí unicamente afectará los resultados en tu dispositivo. Aunque puedes aprender un poco de programación y como esta hecha esta página web\n\nTecnologías empleadas:\n - React + Vite\n - Typescript\n - TailwindCSS",
+  "font-size: 16px; font-weight: bold;", // título
+  "font-size: 10px;", // texto explicativo
+);
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>

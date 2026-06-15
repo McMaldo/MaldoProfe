@@ -49,6 +49,12 @@
             "name": "Clase 7 - Imágenes en Documentos | DOC",
             "href": "https://docs.google.com/document/d/1C945v_pytNwbrKt03degkC6PY-r8Qv33xtx11yLL1F8/edit?usp=sharing",
             "date": "10/06"
+          },
+          {
+            "id": "8",
+            "name": "Clase 8 - Imágenes en Documentos (parte 2) | DOC",
+            "href": "https://docs.google.com/document/d/1tnRQIj9cgCsLzGQDK2_OLo-x5sfM14pLUkJLA-UVN1o/edit?usp=sharing",
+            "date": "17/06"
           }
         ]
       },
@@ -104,7 +110,13 @@
             "name": "Clase 8 - Repaso de Documentos | DOC",
             "href": "https://docs.google.com/document/d/1fDmu2QimJzy1NiUlanUPAKVbJ_P9obXbF8Wa1iZYJ-w/edit?usp=sharing",
             "date": "08/06"
-          }
+          },
+          {
+            "id": "9",
+            "name": "Clase 9 - Recibos de Sueldo| DOC",
+            "href": "https://docs.google.com/document/d/1AIbSBXRWG00mq0JkqG7cKj_NvIOf0vYjgF7kFG5s6QE/edit?usp=sharing",
+            "date": "22/06"
+          }          
         ]
       },
 
@@ -155,12 +167,18 @@
             "href": "https://docs.google.com/document/d/1qxEiNlebPyrAajCxYB8C23arsGgNi7p-sGC1kJoJJh8/edit?usp=sharing",
             "date": "01/06"
           },
-          { "name": "Hojas de Cálculos" },
           {
             "id": "8",
-            "name": "Clase 8 - Fórmulas y Autocompletado | DOC",
-            "href": "https://docs.google.com/document/d/1LYrHb8rwhkNIzYbHFlDz71KSMZjQZo5Qr05yGaaY74Y/edit?usp=sharing",
+            "name": "Clase 8 - Repaso de Documentos | DOC",
+            "href": "https://docs.google.com/document/d/1fDmu2QimJzy1NiUlanUPAKVbJ_P9obXbF8Wa1iZYJ-w/edit?usp=sharing",
             "date": "08/06"
+          },
+          { "name": "Hojas de Cálculos" },
+          {
+            "id": "9",
+            "name": "Clase 9 - Fórmulas y Autocompletado | DOC",
+            "href": "https://docs.google.com/document/d/1LYrHb8rwhkNIzYbHFlDz71KSMZjQZo5Qr05yGaaY74Y/edit?usp=sharing",
+            "date": "22/06"
           }
         ]
       },
