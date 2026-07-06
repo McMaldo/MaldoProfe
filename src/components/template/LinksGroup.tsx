@@ -43,11 +43,6 @@ export default function LinksGroup({
   const linkSubContainer = useRef<HTMLDivElement>(null);
   const [isListOpened, setListOpened] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setListOpened(true), 1500);
-    return () => clearTimeout(timer);
-  }, []);
-
   const allLinks = course.links;
   const visibleLinks = getClosestLinks(allLinks);
   const hasMore = allLinks.filter(isLink).length > visibleLinks.length;
