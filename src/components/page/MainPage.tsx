@@ -27,6 +27,7 @@ const MainPage: FC<{ sections: Section[] }> = ({ sections }) => {
                   key={index}
                   course={course}
                   sectionId={section.id}
+                  index={index}
                 />
               ))}
             </div>

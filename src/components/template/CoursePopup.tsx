@@ -90,21 +90,27 @@ const CoursePopup: FC = () => {
             className="absolute rounded-sm sm:bg-base transition-all duration-150 pointer-events-none"
             style={{ top: btnHover.t, width: btnHover.w, height: btnHover.h }}
           />
-          {course.links.map((item, i) =>
+          {course.links.map((item, index) =>
             !isLink(item) ? (
               <span
-                key={`divider-${i}`}
-                className="pt-2 mb-1 px-2 text-subtext-0 border-b border-mantle"
+                key={`divider-${index}`}
+                className="opacity-0 animate-fade-in pt-2 mb-1 px-2 text-subtext-0 border-b border-mantle"
+                style={{ animationDelay: `${index * 60}ms` }}
               >
                 {item.name}
               </span>
             ) : (
-              <LinkItem
-                key={item.id}
-                link={item}
-                linkContainer={linkContainer}
-                setBtnHover={setBtnHover}
-              />
+              <div
+                className="opacity-0 animate-pop-in"
+                style={{ animationDelay: `${index * 60}ms` }}
+              >
+                <LinkItem
+                  key={item.id}
+                  link={item}
+                  linkContainer={linkContainer}
+                  setBtnHover={setBtnHover}
+                />
+              </div>
             ),
           )}
         </div>

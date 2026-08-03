@@ -1,21 +1,15 @@
-import { useState, useEffect } from "react";
 import FaIcon from "../atom/FaIcon";
 import { useRandomNumber } from "../../hook/useRandomNumber";
 
 export default function Hero() {
-  const [ready, setReady] = useState(false);
   const [heroImgNumber, nextHeroImgNumber] = useRandomNumber(8);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setReady(true), 1000);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <div className="animate-scale-in relative w-full max-w-3xl aspect-video rounded-md overflow-hidden bg-mantle">
-      <div
-        className={`select-none transition-opacity duration-300 ${ready ? "opacity-100" : "opacity-0"}`}
-      >
+    <div
+      className="animate-fade-in relative w-full max-w-3xl aspect-video rounded-md overflow-hidden bg-mantle"
+      style={{ animationDelay: "60ms" }}
+    >
+      <div className="select-none">
         <img
           className="opacity-hero-img-dark absolute size-full object-cover object-center"
           src={`/img/hero-dark-${heroImgNumber}.gif`}

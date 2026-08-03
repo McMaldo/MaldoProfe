@@ -34,21 +34,44 @@ const getClosestLinks = (links: (LinkType | Divider)[], limit = 3) => {
 export default function LinksGroup({
   course,
   sectionId,
+  index,
 }: {
   course: Course;
   sectionId: string;
+  index: number;
 }) {
   const [btnHover, setBtnHover] = useState({ t: 0, w: 0, h: 0 });
   const linkContainer = useRef<HTMLDivElement>(null);
   const linkSubContainer = useRef<HTMLDivElement>(null);
   const [isListOpened, setListOpened] = useState(false);
+  const [containerHeight, setContainerHeight] = useState(0);
 
   const allLinks = course.links;
   const visibleLinks = getClosestLinks(allLinks);
   const hasMore = allLinks.filter(isLink).length > visibleLinks.length;
 
+  useEffect(() => {
+    setContainerHeight(
+      isListOpened
+        ? (linkSubContainer.current?.getBoundingClientRect().height ?? 0)
+        : 0,
+    );
+  }, [allLinks, isListOpened]);
+
+  const isFirstRender = useRef(true);
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    setListOpened(true);
+  }, [allLinks]);
+
   return (
-    <article className="animate-scale-in w-full flex flex-col z-0 hover:z-8">
+    <article
+      className="opacity-0 animate-pop-in w-full flex flex-col z-0 hover:z-8"
+      style={{ animationDelay: `${index * 60 + 120}ms` }}
+    >
       <button
         className={`z-2 ${isListOpened ? "rounded-t-md" : "rounded-md"} bg-mantle py-2 px-4 text-start border border-transparent transition-all active:bg-surface-0 hover:bg-base active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none flex items-center justify-between overflow-visible`}
         type="button"
@@ -69,9 +92,7 @@ export default function LinksGroup({
           isListOpened ? "border-mantle rounded-b-md" : "border-transparent"
         } overflow-hidden transition-all duration-200 ease-in-out`}
         style={{
-          height: isListOpened
-            ? (linkSubContainer.current?.getBoundingClientRect().height ?? 0)
-            : 0,
+          height: containerHeight,
         }}
       >
         <div
