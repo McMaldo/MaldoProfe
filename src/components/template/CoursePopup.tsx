@@ -1,19 +1,27 @@
 import { type FC, useEffect, useRef, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import type { Link, Divider } from "../../types/Links";
+import type { Link, Divider, Section } from "../../types/Links";
 import { useSections } from "../../context/SectionsContext";
 import LinkItem from "../atom/LinkItem";
 
 const isLink = (item: Link | Divider): item is Link => "href" in item;
 
 const CoursePopup: FC = () => {
-  const { section: sectionId, course: courseId } = useParams();
+  const { sectionId, courseId } = useParams();
   const navigate = useNavigate();
-  const sections = useSections();
+  const { getSection, loadSection } = useSections();
+  const [sections, setSections] = useState<Section[]>(
+    () => getSection(sectionId ?? "") ?? [],
+  );
+
+  useEffect(() => {
+    if (sections.length || !sectionId) return;
+    loadSection(sectionId).then(setSections);
+  }, [sectionId]);
 
   const course = sections
-    .find((s) => s.id === sectionId)
-    ?.courses.find((c) => c.id === courseId);
+    .flatMap((s) => s.courses)
+    .find((c) => c.id === courseId);
 
   const ref = useRef<HTMLDivElement>(null);
   const linkContainer = useRef<HTMLDivElement>(null);
@@ -46,7 +54,7 @@ const CoursePopup: FC = () => {
 
   return (
     <>
-      <div className="fixed inset-0 z-11 bg-black/20 dark:bg-black/40 transition-colors" />
+      <div className="opacity-0 animate-fade-in fixed inset-0 z-11 bg-black/20 dark:bg-black/40 transition-colors" />
       <div
         ref={ref}
         className="fixed top-1/2 left-1/2 -translate-1/2 z-12 flex flex-col w-[calc(100%-2rem)] max-w-2xl max-h-[calc(100%-2rem)] rounded-2xl bg-mantle border border-base shadow-xl overflow-hidden animate-scale-in"
@@ -59,7 +67,7 @@ const CoursePopup: FC = () => {
             </h2>
             {course.desc &&
               course.desc.split("\n").map((item, index) => (
-                <p key={index} className="text-surface-2 text-sm">
+                <p key={`desc-${index}`} className="text-surface-2 text-sm">
                   {item}
                 </p>
               ))}
@@ -101,11 +109,11 @@ const CoursePopup: FC = () => {
               </span>
             ) : (
               <div
+                key={`link-${index}`}
                 className="opacity-0 animate-pop-in"
                 style={{ animationDelay: `${index * 60}ms` }}
               >
                 <LinkItem
-                  key={item.id}
                   link={item}
                   linkContainer={linkContainer}
                   setBtnHover={setBtnHover}

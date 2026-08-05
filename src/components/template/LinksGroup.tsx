@@ -43,7 +43,7 @@ export default function LinksGroup({
   const [btnHover, setBtnHover] = useState({ t: 0, w: 0, h: 0 });
   const linkContainer = useRef<HTMLDivElement>(null);
   const linkSubContainer = useRef<HTMLDivElement>(null);
-  const [isListOpened, setListOpened] = useState(false);
+  const [isListOpened, setListOpened] = useState(true);
   const [containerHeight, setContainerHeight] = useState(0);
 
   const allLinks = course.links;

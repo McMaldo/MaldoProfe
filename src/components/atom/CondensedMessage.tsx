@@ -22,7 +22,7 @@ const CondensedMessage: FC<{
       >
         {content ? (
           content.map((row: string, index: number) => (
-            <span key={index}>{row}</span>
+            <span key={`msg-row-${index}`}>{row}</span>
           ))
         ) : (
           <span>{msg}</span>

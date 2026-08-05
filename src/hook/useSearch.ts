@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState, useMemo } from "react";
+import { Course, Section } from "../types/Links";
 
 /**
  * useSearch — filtra el vector `sections` por query de texto.
@@ -10,8 +11,20 @@ import { useState, useMemo } from "react";
  *   - setQuery  : setter para conectar al <input>
  *   - filtered  : copia profunda de sections con solo los cursos/links que hacen match
  */
-export function useSearch(sections) {
-  const [query, setQuery] = useState("");
+export function useSearch(
+  sections: Section[],
+  externalQuery?: string,
+): {
+  query: string;
+  setQuery: React.Dispatch<React.SetStateAction<string>>;
+  filtered: ({
+    courses: (Course | null)[];
+    id: string;
+    name: string;
+  } | null)[];
+} {
+  const [internalQuery, setQuery] = useState("");
+  const query = externalQuery !== undefined ? externalQuery : internalQuery;
 
   const [debouncedQuery, setDebouncedQuery] = useState("");
 
