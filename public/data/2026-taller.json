@@ -81,15 +81,21 @@
         },
         {
           "id": "13",
-          "name": "Clase 13 - Imágenes en Documentos (parte 7) | DOC",
+          "name": "Clase 13 - Cálculos en una Computadora (parte 1) | DOC",
           "href": "https://docs.google.com/document/d/1aoHdoWv3cWqY_odSXUWmzCI4DY4ITpQkWDcJYutj8Og/edit?usp=sharing",
           "date": "05/08"
         },
         {
           "id": "14",
-          "name": "Clase 14 - Imágenes en Documentos (parte 8) | DOC",
+          "name": "Clase 14 - Cálculos en una Computadora (parte 2) | DOC",
           "href": "https://docs.google.com/document/d/17hKzpd0WatWgvhXc8GHgfE9xC263Q5mPrqhMdnnsvPY/edit?usp=sharing",
           "date": "12/08"
+        },
+        {
+          "id": "15",
+          "name": "Clase 15 - Cálculos en una Computadora (parte 3) | DOC",
+          "href": "https://docs.google.com/document/d/1rRVEGHOWIkov_ZzWDPKdtaj29mVHIkDpBWLL0dsE07w/edit?usp=sharing",
+          "date": "19/08"
         }
       ]
     },
@@ -169,6 +175,18 @@
           "name": "Clase 12 - Edición de Imágenes (parte 3) | DOC",
           "href": "https://docs.google.com/document/d/1mSBmU9vM31g1zpfri0i-R2m3YkPwT7GOTPMgN4VRi7Q/edit?usp=sharing",
           "date": "03/08"
+        },
+        {
+          "id": "13",
+          "name": "Clase 13 - Tipos de Archivos | DOC",
+          "href": "https://docs.google.com/document/d/1HolN9glbZ5Oc8R_qTg3srwLDCGzthOdz7NjU5Uw9nDc/edit?usp=sharing",
+          "date": "10/08"
+        },
+        {
+          "id": "14",
+          "name": "Clase 14 - Tipos de Archivos (parte 2) | DOC",
+          "href": "https://docs.google.com/document/d/1r6-FBJ0BqsMX07fqelfKbP_kFdAts4zC6IqQh48W880/edit?usp=sharing",
+          "date": "17/08"
         }
       ]
     },
@@ -247,9 +265,22 @@
         },
         {
           "id": "12",
-          "name": "Clase 12 - Fórmulas y Autocompletado (parte 4) | DOC",
+          "name": "Clase 12 - Resolver Problemas | DOC",
           "href": "https://docs.google.com/document/d/1iVBfSVJrg5NhG0unUpYxYZcHdvBU5VGjwsQfSvT4XtI/edit?usp=sharing",
           "date": "03/08"
+        },
+        { "name": "Gráficos en Hojas de Cálculos" },
+        {
+          "id": "13",
+          "name": "Clase 13 - Gráficos de Barra vs Columna | DOC",
+          "href": "https://docs.google.com/document/d/1eXqhK3U-CRm5pchJROWxdzOkwtXVedRfk9FmHBzwU_g/edit?usp=sharing",
+          "date": "10/08"
+        },
+        {
+          "id": "14",
+          "name": "Clase 14 - Gráficos de Barra vs Columna (parte 2) | DOC",
+          "href": "https://docs.google.com/document/d/1W8M8QxoL-a7mJaaw0R1UwWHybeMGeX8jjDJMsbzHM6w/edit?usp=sharing",
+          "date": "17/08"
         }
       ]
     },
