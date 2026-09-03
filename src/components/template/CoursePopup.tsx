@@ -54,13 +54,13 @@ const CoursePopup: FC = () => {
 
   return (
     <>
-      <div className="opacity-0 animate-fade-in fixed inset-0 z-11 bg-black/20 dark:bg-black/40 transition-colors" />
+      <div className="animate-fade-in fixed inset-0 z-11 bg-black/20 dark:bg-black/40 transition-colors backdrop-blur-sm" />
       <div
         ref={ref}
-        className="fixed top-1/2 left-1/2 -translate-1/2 z-12 flex flex-col w-[calc(100%-2rem)] max-w-2xl max-h-[calc(100%-2rem)] rounded-2xl bg-mantle border border-base shadow-xl overflow-hidden animate-scale-in"
+        className="fixed top-1/2 left-1/2 -translate-1/2 z-12 flex flex-col w-[calc(100%-2rem)] max-w-2xl max-h-[calc(100%-2rem)] rounded-2xl border border-base shadow-xl overflow-hidden animate-scale-in"
       >
         {/* Header */}
-        <div className="flex items-start justify-between gap-4 px-5 py-4 border-b border-base">
+        <div className="flex items-start justify-between gap-4 px-5 py-4 bg-mantle border-b border-base">
           <div>
             <h2 className="text-text font-semibold leading-tight">
               {course.name}
@@ -92,7 +92,7 @@ const CoursePopup: FC = () => {
         {/* Links */}
         <div
           ref={linkContainer}
-          className="group relative bg-crust flex flex-col overflow-y-auto custom-scroll p-3"
+          className="group relative bg-crust/90 flex flex-col overflow-y-auto custom-scroll p-3"
         >
           <div
             className="absolute rounded-sm sm:bg-base transition-all duration-150 pointer-events-none"

@@ -73,7 +73,7 @@ const LinkItem: FC<{
       {link.date && (
         <span
           className={`flex-1 text-end text-sm ${
-            isToday ? "text-surface-1" : "text-surface-0"
+            isToday ? "text-subtext-0" : "text-surface-1"
           }`}
         >
           {link.date}
