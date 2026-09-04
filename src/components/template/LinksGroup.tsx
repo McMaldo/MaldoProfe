@@ -69,7 +69,7 @@ export default function LinksGroup({
 
   return (
     <article
-      className="opacity-0 animate-pop-in w-full flex flex-col z-0 hover:z-8"
+      className="animate-pop-in w-full flex flex-col z-0 hover:z-8"
       style={{ animationDelay: `${index * 60 + 120}ms` }}
     >
       <button

@@ -41,10 +41,10 @@ const ThemeSelector: FC = () => {
 
       {/* Popup */}
       <div
-        className={`absolute right-0 top-[calc(100%+.25rem)] z-50 flex flex-col gap-0.5 p-1 rounded-xl bg-mantle border border-base shadow-md transition-all duration-150 ${
+        className={`opacity-0 absolute right-0 top-[calc(100%+.25rem)] z-50 flex flex-col gap-0.5 p-1 rounded-xl bg-mantle border border-base shadow-md transition-all duration-150 ${
           open
-            ? "opacity-100 translate-y-0 pointer-events-auto"
-            : "opacity-0 -translate-y-1 pointer-events-none"
+            ? "animate-fade-in pointer-events-auto"
+            : "animate-fade-out pointer-events-none"
         }`}
       >
         {themesStruct.map(({ value, label, icon }) => (

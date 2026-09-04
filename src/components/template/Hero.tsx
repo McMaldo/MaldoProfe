@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="flex gap-4 flex-wrap justify-center">
           {["Computación", "Informática", "NTICX"].map((tag, tagIndex) => (
             <span
-              key={tagIndex}
+              key={"tag-" + tagIndex}
               className="bg-base text-font-light py-1 px-3 rounded-full text-sm"
             >
               {tag}

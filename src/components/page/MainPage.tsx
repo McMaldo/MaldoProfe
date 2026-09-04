@@ -63,8 +63,11 @@ const MainPage: FC<{ sectionList: { id: string; name: string }[] }> = ({
         {loading && <p className="text-subtext-0 text-sm">Cargando...</p>}
         {!loading &&
           sectionsFiltered.map((section, index) => (
-            <div key={index} className="w-full flex flex-col gap-4">
-              <h2 className="opacity-0 animate-fade-in pt-1 text-surface-2 w-full border-b border-mantle text-2xl">
+            <div
+              key={"section-" + index}
+              className="w-full flex flex-col gap-4"
+            >
+              <h2 className="animate-fade-in pt-1 text-surface-2 w-full border-b border-mantle text-2xl">
                 {section?.name}
               </h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
