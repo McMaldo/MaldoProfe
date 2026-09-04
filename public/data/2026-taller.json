@@ -104,12 +104,6 @@
           "date": "26/08"
         },
         {
-          "id": "16",
-          "name": "Clase 16 - Investigación y Edit de Imágenes (parte 3) | DOC",
-          "href": "https://docs.google.com/document/d/1WMkvY0lMbirrfsfOXx2OtHK9h344OAG_2-zFChYdhuQ/edit?usp=sharing",
-          "date": "26/08"
-        },
-        {
           "id": "17",
           "name": "Clase 17 - Repaso y Juegos | DOC",
           "href": "https://docs.google.com/document/d/1wibNzN9LeSFe7n_pty9UmJ07EaPjlrLK5uLAk7X5kpA/edit?usp=sharing",
@@ -367,6 +361,7 @@
           "href": "https://docs.google.com/document/d/1DWby2ByB41looEo-mRaJwmxPhVBAG3qOTYWcmEdpvgA/edit?usp=sharing",
           "date": "17/06"
         },
+        { "name": "Presentaciones y Diapositivas" },
         {
           "id": "9",
           "name": "Clase 9 - Intro a Presentaciones | DOC",
@@ -415,6 +410,7 @@
           "href": "https://docs.google.com/document/d/1lJUcQTGxD-pF1XuRzmnnQK8NOVwKCib0IKFWBnq60Oo/edit?usp=sharing",
           "date": "26/08"
         },
+        { "name": "Planificación de Presentaciones" },
         {
           "id": "17",
           "name": "Clase 17 - Mi Presentación | DOC",
@@ -477,6 +473,7 @@
           "href": "https://docs.google.com/document/d/1B0Ziw3GDorT79tn0sjTRjWkCsIbwd6xKxtGyDbxi_IQ/edit?usp=sharing",
           "date": "19/06"
         },
+        { "name": "Presentaciones y Diapositivas" },
         {
           "id": "9",
           "name": "Clase 9 - Intro a Presentaciones | DOC",
@@ -525,6 +522,7 @@
           "href": "https://docs.google.com/document/d/1XmCwZ0GxscLbC-Kwpn5Mh_GUN1KjUCT2rxIeU921S6k/edit?usp=sharing",
           "date": "04/09"
         },
+        { "name": "Planificación de Presentaciones" },
         {
           "id": "17",
           "name": "Clase 17 - Mi Presentación | DOC",
@@ -611,6 +609,7 @@
           "href": "https://docs.google.com/document/d/13w_sL-Dgdv-A-DfYH5wXrqBLpJ6e3M36mrJNWuCz_QI/edit?usp=sharing",
           "date": "04/08"
         },
+        { "name": "Introducción a Pensamiento Computacional" },
         {
           "id": "13",
           "name": "Clase 13 - Intro a Programación | DOC",
