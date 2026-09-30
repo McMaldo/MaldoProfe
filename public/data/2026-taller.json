@@ -3,9 +3,9 @@
   "name": "IJRJ - Taller de Informática - 2026",
   "courses": [
     {
-      "id": "1ro",
-      "name": "1er año",
-      "desc": "1ro B: Mie 14:15 - 15:15hs\n1ro A: Vie 14:15 - 15:15hs",
+      "id": "1roA",
+      "name": "1er año A",
+      "desc": "Vie 14:15 - 15:15hs",
       "links": [
         {
           "id": "1",
@@ -126,6 +126,133 @@
           "name": "Clase 20 - Investigación y Edit de Imágenes (parte 6) | DOC",
           "href": "https://docs.google.com/document/d/18trl_oMXPKgqFeYcfAQqSUX0Tmgq4nrLQ9MZoG2r7Wo/edit?usp=sharing",
           "date": "25/09"
+        }
+      ]
+    },
+    {
+      "id": "1roB",
+      "name": "1er año B",
+      "desc": "Mie 14:15 - 15:15hs",
+      "links": [
+        {
+          "id": "1",
+          "name": "Clase 1 - Presentación | DOC",
+          "href": "https://docs.google.com/document/d/1UXo784sr6J85XXrsisi63N8eXQDsmXON9A1QZPnetNs/edit?usp=sharing",
+          "date": "08/04"
+        },
+        {
+          "id": "2",
+          "name": "Clase 2 - Introducción a Documentos | DOC",
+          "href": "https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing",
+          "date": "15/04"
+        },
+        {
+          "id": "3",
+          "name": "Clase 3 - Introducción a Documentos (parte 2) | DOC",
+          "href": "https://docs.google.com/document/d/1tXyb7zH-Lj2EOJnYZh02FKIikvkADiZX8oQnOd--LWY/edit?usp=sharing",
+          "date": "29/04"
+        },
+        {
+          "id": "4",
+          "name": "Clase 4 - Tablas en Documentos | DOC",
+          "href": "https://docs.google.com/document/d/10RCnjWBBs1IxTXcwwufOpfDAVpK_QPoNpSh40dMoApo/edit?usp=sharing",
+          "date": "06/05"
+        },
+        {
+          "id": "5",
+          "name": "Clase 5 - Tablas en Documentos (parte 2) | DOC",
+          "href": "https://docs.google.com/document/d/1aqJGmEGtTd9NkPggJ6mrIu46v5Jh0z7eAj-CzlDWDZ8/edit?usp=sharing",
+          "date": "13/05"
+        },
+        {
+          "id": "6",
+          "name": "Clase 6 - Tablas en Documentos (parte 3) | DOC",
+          "href": "https://docs.google.com/document/d/14O66U2Yx3R48hU6tL6tfjifIwlSLTFcIRhyt0g6X6DE/edit?usp=sharing",
+          "date": "20/05"
+        },
+        {
+          "id": "7",
+          "name": "Clase 7 - Imágenes en Documentos | DOC",
+          "href": "https://docs.google.com/document/d/1C945v_pytNwbrKt03degkC6PY-r8Qv33xtx11yLL1F8/edit?usp=sharing",
+          "date": "10/06"
+        },
+        {
+          "id": "8",
+          "name": "Clase 8 - Imágenes en Documentos (parte 2) | DOC",
+          "href": "https://docs.google.com/document/d/1tnRQIj9cgCsLzGQDK2_OLo-x5sfM14pLUkJLA-UVN1o/edit?usp=sharing",
+          "date": "17/06"
+        },
+        {
+          "id": "9",
+          "name": "Clase 9 - Imágenes en Documentos (parte 3) | DOC",
+          "href": "https://docs.google.com/document/d/1bus-jphyJR293MXUU9STaFG7ekuR9x3jVwnQYLQu88U/edit?usp=sharing",
+          "date": "24/06"
+        },
+        {
+          "id": "10",
+          "name": "Clase 10 - Imágenes en Documentos (parte 4) | DOC",
+          "href": "https://docs.google.com/document/d/1zgC7Xn4ov_IxF3-qYKm6mGEqSUIjMJiZGGHlovbPQEg/edit?usp=sharing",
+          "date": "01/07"
+        },
+        {
+          "id": "11",
+          "name": "Clase 11 - Imágenes en Documentos (parte 5) | DOC",
+          "href": "https://docs.google.com/document/d/15eu_BekPcDb8mZZfgL4s46KFvSsCama6GkrA1tHWW70/edit?usp=sharing",
+          "date": "08/07"
+        },
+        {
+          "id": "12",
+          "name": "Clase 12 - Imágenes en Documentos (parte 6) | DOC",
+          "href": "https://docs.google.com/document/d/1BYB7U_oRT_FWrxPpnA3_tKztuP5CasfHCrZA1qpBqpY/edit?usp=sharing",
+          "date": "15/07"
+        },
+        {
+          "id": "13",
+          "name": "Clase 13 - Cálculos en una Computadora (parte 1) | DOC",
+          "href": "https://docs.google.com/document/d/1aoHdoWv3cWqY_odSXUWmzCI4DY4ITpQkWDcJYutj8Og/edit?usp=sharing",
+          "date": "05/08"
+        },
+        {
+          "id": "14",
+          "name": "Clase 14 - Investigación y Edit de Imágenes | DOC",
+          "href": "https://docs.google.com/document/d/17hKzpd0WatWgvhXc8GHgfE9xC263Q5mPrqhMdnnsvPY/edit?usp=sharing",
+          "date": "12/08"
+        },
+        {
+          "id": "15",
+          "name": "Clase 15 - Investigación y Edit de Imágenes (parte 2) | DOC",
+          "href": "https://docs.google.com/document/d/1rRVEGHOWIkov_ZzWDPKdtaj29mVHIkDpBWLL0dsE07w/edit?usp=sharing",
+          "date": "19/08"
+        },
+        {
+          "id": "16",
+          "name": "Clase 16 - Investigación y Edit de Imágenes (parte 3) | DOC",
+          "href": "https://docs.google.com/document/d/1WMkvY0lMbirrfsfOXx2OtHK9h344OAG_2-zFChYdhuQ/edit?usp=sharing",
+          "date": "26/08"
+        },
+        {
+          "id": "17",
+          "name": "Clase 17 - Repaso y Juegos | DOC",
+          "href": "https://docs.google.com/document/d/1wibNzN9LeSFe7n_pty9UmJ07EaPjlrLK5uLAk7X5kpA/edit?usp=sharing",
+          "date": "02/09"
+        },
+        {
+          "id": "18",
+          "name": "Clase 18 - Investigación y Edit de Imágenes (parte 4) | DOC",
+          "href": "https://docs.google.com/document/d/1gmewcjszyLz_5kh6KjzIcENdHwhOgy4G1jdOTIc8iHg/edit?usp=sharing",
+          "date": "09/09"
+        },
+        {
+          "id": "19",
+          "name": "Clase 19 - Investigación y Edit de Imágenes (parte 5) | DOC",
+          "href": "https://docs.google.com/document/d/1h78AjnLILUPXHADModYi9DtZjM5CIBoBM3ZL0hOjUn0/edit?usp=sharing",
+          "date": "16/09"
+        },
+        {
+          "id": "20",
+          "name": "Clase 20 - Investigación y Edit de Imágenes (parte 6) | DOC",
+          "href": "https://docs.google.com/document/d/1pJnqq0udkOEw6GjU0txO-dU3AG86mRlIdS-hVchc5V4/edit?usp=sharing",
+          "date": "30/09"
         }
       ]
     },
@@ -473,9 +600,15 @@
         },
         {
           "id": "19",
-          "name": "Clase 19 - Planificación de Presentaciones | DOC",
+          "name": "Clase 19 - Planificación de Presentaciones (parte 2) | DOC",
           "href": "https://docs.google.com/document/d/1Rw3s2P-0sSL8ieqJJxSqgjXFBKa-v6Uwx9Fwe50mwBg/edit?usp=sharing",
           "date": "16/09"
+        },
+        {
+          "id": "20",
+          "name": "Clase 20 - Planificación de Presentaciones (parte 3) | DOC",
+          "href": "https://docs.google.com/document/d/1BbRPZ5kUqPVmuZN_G7hay7hvkKhpwzqw2Kz8e7XH2p0/edit?usp=sharing",
+          "date": "30/09"
         }
       ]
     },
@@ -594,6 +727,12 @@
           "name": "Clase 18 - Planificación de Presentaciones (parte 2) | DOC",
           "href": "https://docs.google.com/document/d/1ufC5bmvuxrvHCukhuSqaZdxz7_hTpi1yt-6OXNLy7-E/edit?usp=sharing",
           "date": "25/09"
+        },
+        {
+          "id": "19",
+          "name": "Clase 19 - Planificación de Presentaciones (parte 3) | DOC",
+          "href": "https://docs.google.com/document/d/1cEYTfOJ8POnz01k0YurPURIvSIu-8Iq84KqVIYavR2o/edit?usp=sharing",
+          "date": "02/10"
         }
       ]
     },
