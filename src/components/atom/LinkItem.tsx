@@ -34,12 +34,18 @@ const LinkItem: FC<{
   const isToday = status === "today";
 
   const handleMouseEnter = (e: MouseEvent) => {
-    const position = linkContainer.current?.getBoundingClientRect().top ?? 0;
+    const container = linkContainer.current;
+    if (!container) return;
+    const containerRect = container.getBoundingClientRect();
     const btn = (e.currentTarget as HTMLElement)
       .querySelector("div")
       ?.getBoundingClientRect();
     if (btn)
-      setBtnHover({ t: btn.top - position, w: btn.width, h: btn.height });
+      setBtnHover({
+        t: btn.top - containerRect.top + container.scrollTop,
+        w: btn.width,
+        h: btn.height,
+      });
   };
 
   return (
