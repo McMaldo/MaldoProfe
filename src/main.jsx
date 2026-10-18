@@ -3,7 +3,7 @@ import { lazy, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 
 import "./index.css";
-import links from "../public/data/links.json";
+import links from "/src/data/links.json";
 import FindLink from "./components/page/FindLink";
 const MainPage = lazy(() => import("./components/page/MainPage"));
 const CoursePopup = lazy(() => import("./components/template/CoursePopup"));

@@ -18,7 +18,7 @@ export function SectionsProvider({ children }: { children: React.ReactNode }) {
 
   const loadSection = async (id: string) => {
     if (cache[id]) return cache[id];
-    const res = await fetch(`/data/${id}.json`);
+    const res = await fetch(`/src/data/${id}.json`);
     const json = await res.json();
     const data = Array.isArray(json) ? json : [json];
     setCache((prev) => ({ ...prev, [id]: data }));
