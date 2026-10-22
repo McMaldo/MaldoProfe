@@ -1114,21 +1114,27 @@
         },
         {
           "id": "22",
-          "name": "Clase 22 - Compatibilidad entre Componentes | DOC",
-          "href": "https://docs.google.com/document/d/1yXn5TNsPRQ4eN7VUK-p5PaIhJ9vWcMu3YlZrVS8sXw8/edit?usp=sharing",
+          "name": "Clase 22 - Cómo trabajan juntos los componentes | DOC",
+          "href": "https://docs.google.com/document/d/1t-3YMtRx2JojB2iqP5oV91D8jekGfS7hyOwH8vZ3ieE/edit?usp=sharing",
           "date": "22/10"
         },
         {
           "id": "23",
-          "name": "Clase 23 - Armado de una PC | DOC",
-          "href": "https://docs.google.com/document/d/1WsNmjxmLicNMlZvTYFYmf50mF19jst-A55eegyPZsJE/edit?usp=sharing",
+          "name": "Clase 23 - Compatibilidad entre Componentes | DOC",
+          "href": "https://docs.google.com/document/d/1yXn5TNsPRQ4eN7VUK-p5PaIhJ9vWcMu3YlZrVS8sXw8/edit?usp=sharing",
           "date": "29/10"
         },
         {
           "id": "24",
-          "name": "Clase 24 - Como Elegir una PC según el uso | DOC",
-          "href": "https://docs.google.com/document/d/1ZgNBWS-K0jsHPNNNWTvN3MDn_NOeEmumMEBovFudihM/edit?usp=sharing",
+          "name": "Clase 24 - Armado de una PC | DOC",
+          "href": "https://docs.google.com/document/d/1WsNmjxmLicNMlZvTYFYmf50mF19jst-A55eegyPZsJE/edit?usp=sharing",
           "date": "05/11"
+        },
+        {
+          "id": "25",
+          "name": "Clase 25 - Como Elegir una PC según el uso | DOC",
+          "href": "https://docs.google.com/document/d/1ZgNBWS-K0jsHPNNNWTvN3MDn_NOeEmumMEBovFudihM/edit?usp=sharing",
+          "date": "12/11"
         }
       ]
     }
