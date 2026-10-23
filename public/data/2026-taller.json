@@ -292,7 +292,6 @@
         }
       ]
     },
-
     {
       "id": "2do",
       "name": "2do año",
@@ -467,7 +466,9 @@
           "href": "https://docs.google.com/document/d/1fDmu2QimJzy1NiUlanUPAKVbJ_P9obXbF8Wa1iZYJ-w/edit?usp=sharing",
           "date": "08/06"
         },
-        { "name": "Hojas de Cálculos" },
+        {
+          "name": "Hojas de Cálculos"
+        },
         {
           "id": "9",
           "name": "Clase 9 - Fórmulas y Autocompletado | DOC",
@@ -492,7 +493,9 @@
           "href": "https://docs.google.com/document/d/1iVBfSVJrg5NhG0unUpYxYZcHdvBU5VGjwsQfSvT4XtI/edit?usp=sharing",
           "date": "03/08"
         },
-        { "name": "Gráficos en Hojas de Cálculos" },
+        {
+          "name": "Gráficos en Hojas de Cálculos"
+        },
         {
           "id": "13",
           "name": "Clase 13 - Gráficos de Barra vs Columna | DOC",
@@ -543,7 +546,6 @@
         }
       ]
     },
-
     {
       "id": "4to",
       "name": "4to año",
@@ -597,7 +599,9 @@
           "href": "https://docs.google.com/document/d/1DWby2ByB41looEo-mRaJwmxPhVBAG3qOTYWcmEdpvgA/edit?usp=sharing",
           "date": "17/06"
         },
-        { "name": "Presentaciones y Diapositivas" },
+        {
+          "name": "Presentaciones y Diapositivas"
+        },
         {
           "id": "9",
           "name": "Clase 9 - Intro a Presentaciones | DOC",
@@ -646,7 +650,9 @@
           "href": "https://docs.google.com/document/d/1lJUcQTGxD-pF1XuRzmnnQK8NOVwKCib0IKFWBnq60Oo/edit?usp=sharing",
           "date": "26/08"
         },
-        { "name": "Planificación de Presentaciones" },
+        {
+          "name": "Planificación de Presentaciones"
+        },
         {
           "id": "17",
           "name": "Clase 17 - Mi Presentación | DOC",
@@ -744,7 +750,9 @@
           "href": "https://docs.google.com/document/d/1B0Ziw3GDorT79tn0sjTRjWkCsIbwd6xKxtGyDbxi_IQ/edit?usp=sharing",
           "date": "19/06"
         },
-        { "name": "Presentaciones y Diapositivas" },
+        {
+          "name": "Presentaciones y Diapositivas"
+        },
         {
           "id": "9",
           "name": "Clase 9 - Intro a Presentaciones | DOC",
@@ -793,7 +801,9 @@
           "href": "https://docs.google.com/document/d/1XmCwZ0GxscLbC-Kwpn5Mh_GUN1KjUCT2rxIeU921S6k/edit?usp=sharing",
           "date": "04/09"
         },
-        { "name": "Planificación de Presentaciones" },
+        {
+          "name": "Planificación de Presentaciones"
+        },
         {
           "id": "17",
           "name": "Clase 17 - Planificación de Presentaciones | DOC",
@@ -816,11 +826,16 @@
           "id": "20",
           "name": "Clase 20 - Planificación de Presentaciones - 4 | DOC",
           "href": "https://docs.google.com/document/d/14V6djnIxlrEORL1xHek9SN2n5OvXSBDVStdjdw5rzvw/edit?usp=sharing",
-          "date": "16/10"
+          "date": "23/10"
+        },
+        {
+          "id": "21",
+          "name": "Clase 21 - Cómo Presentar | DOC",
+          "href": "https://docs.google.com/document/d/1xV6MdmWOu7q1lLHKqhZVt4kfpHNa8E33gJRI5q87tpQ/edit?usp=sharing",
+          "date": "30/10"
         }
       ]
     },
-
     {
       "id": "6to",
       "name": "6to año",
@@ -838,7 +853,9 @@
           "href": "https://docs.google.com/document/d/1cZQ9RIKN98uC93TDFVCoa5KmBOQRolFzUvI3AhdhPlE/edit?usp=sharing",
           "date": "14/04"
         },
-        { "name": "Hojas de Cálculos" },
+        {
+          "name": "Hojas de Cálculos"
+        },
         {
           "id": "3",
           "name": "Clase 3 - Introducción a Hojas de Cálculos | DOC",
@@ -899,7 +916,9 @@
           "href": "https://docs.google.com/document/d/13w_sL-Dgdv-A-DfYH5wXrqBLpJ6e3M36mrJNWuCz_QI/edit?usp=sharing",
           "date": "04/08"
         },
-        { "name": "Introducción a Pensamiento Computacional" },
+        {
+          "name": "Introducción a Pensamiento Computacional"
+        },
         {
           "id": "13",
           "name": "Clase 13 - Intro a Programación | DOC",
@@ -960,7 +979,9 @@
           "href": "https://docs.google.com/document/d/1B6C0sEj-4A1dAqZxaPtC8QaaQWPjaHA3brEzClkCLOs/edit?usp=sharing",
           "date": "27/10"
         },
-        { "name": "Recursos Extras" },
+        {
+          "name": "Recursos Extras"
+        },
         {
           "id": "ExcelRoadmap",
           "name": "Excel Roadmap - Orden para aprender todo de Excel",
